@@ -34,7 +34,8 @@
         },
         "autoExpand": {
             "type": "boolean",
-            "description": "Whether to automatically expand the group when the page is first rendered."
+            "default": false,
+            "description": "Whether to automatically expand the group when the page is first rendered. Default is true"
         },
         "events": {
             "type": "array",
