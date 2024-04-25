@@ -8,6 +8,7 @@
     "required": ["events"],
     "properties": {
         "$schema": {"type": "string"},
+        "$schema-local": {"type": "string", "description": "Can help during development when modifying schema itself, by temporarily swapping with \"$schema\""},
         "events": {
             "type": "array",
             "items": {

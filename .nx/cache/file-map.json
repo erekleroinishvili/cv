@@ -3,12 +3,12 @@
   "nxVersion": "18.3.3",
   "deps": {
     "@angular/animations": "^17.3.0",
-    "@angular/cdk": "^17.3.5",
+    "@angular/cdk": "^17.3.6",
     "@angular/common": "^17.3.0",
     "@angular/compiler": "^17.3.0",
     "@angular/core": "^17.3.0",
     "@angular/forms": "^17.3.0",
-    "@angular/material": "^17.3.5",
+    "@angular/material": "^17.3.6",
     "@angular/platform-browser": "^17.3.0",
     "@angular/platform-browser-dynamic": "^17.3.0",
     "@angular/platform-server": "^17.3.0",
@@ -54,6 +54,10 @@
         "hash": "6277340395568879347"
       },
       {
+        "file": ".github/workflows/main.yml",
+        "hash": "7967855403957436654"
+      },
+      {
         "file": ".gitignore",
         "hash": "4689145951703824387"
       },
@@ -75,15 +79,15 @@
       },
       {
         "file": "angular.json",
-        "hash": "12435276817254407500"
+        "hash": "13115266095536637985"
       },
       {
         "file": "package-lock.json",
-        "hash": "3836265496230814909"
+        "hash": "4218001611735533848"
       },
       {
         "file": "package.json",
-        "hash": "14060734292570885275"
+        "hash": "2909594604521386750"
       },
       {
         "file": "server.ts",
@@ -91,11 +95,11 @@
       },
       {
         "file": "src/app/app.component.html",
-        "hash": "14326468053483265284"
+        "hash": "7601650919928288982"
       },
       {
         "file": "src/app/app.component.scss",
-        "hash": "3244421341483603138"
+        "hash": "13333415121395400354"
       },
       {
         "file": "src/app/app.component.ts",
@@ -107,7 +111,7 @@
       },
       {
         "file": "src/app/app.config.ts",
-        "hash": "1132335673429873802"
+        "hash": "1027149146388994927"
       },
       {
         "file": "src/app/app.routes.ts",
@@ -127,7 +131,7 @@
       },
       {
         "file": "src/app/components/accordion/accordion.component.ts",
-        "hash": "15121758550664699731"
+        "hash": "2737707509808569874"
       },
       {
         "file": "src/app/components/bullet/bullet.component.html",
@@ -135,7 +139,7 @@
       },
       {
         "file": "src/app/components/bullet/bullet.component.scss",
-        "hash": "17732721745801543262"
+        "hash": "1281901121326366486"
       },
       {
         "file": "src/app/components/bullet/bullet.component.ts",
@@ -143,15 +147,15 @@
       },
       {
         "file": "src/app/components/cv-event/cv-event.component.html",
-        "hash": "2515386449368572745"
+        "hash": "3420242108586772959"
       },
       {
         "file": "src/app/components/cv-event/cv-event.component.scss",
-        "hash": "15918970398539438190"
+        "hash": "5265658794626712775"
       },
       {
         "file": "src/app/components/cv-event/cv-event.component.ts",
-        "hash": "17825139936900785214"
+        "hash": "14933387204722276229"
       },
       {
         "file": "src/app/components/cv/cv.component.html",
@@ -167,15 +171,27 @@
       },
       {
         "file": "src/app/components/header/header.component.html",
-        "hash": "8216739983071388521"
+        "hash": "1202298168241141711"
       },
       {
         "file": "src/app/components/header/header.component.scss",
-        "hash": "7980518541543331721"
+        "hash": "8098103980459244203"
       },
       {
         "file": "src/app/components/header/header.component.ts",
         "hash": "1928553983277039546"
+      },
+      {
+        "file": "src/app/components/icon/icon.component.html",
+        "hash": "2532467896568822753"
+      },
+      {
+        "file": "src/app/components/icon/icon.component.scss",
+        "hash": "1049675152569137200"
+      },
+      {
+        "file": "src/app/components/icon/icon.component.ts",
+        "hash": "13405839748922447568"
       },
       {
         "file": "src/app/components/label/label.component.html",
@@ -202,8 +218,28 @@
         "hash": "8005070663374559434"
       },
       {
+        "file": "src/app/events.json",
+        "hash": "5195653610857056478"
+      },
+      {
         "file": "src/app/events.ts",
-        "hash": "2089224626057625478"
+        "hash": "17422870018231816922"
+      },
+      {
+        "file": "src/app/json-schemas/event.schema.json",
+        "hash": "14804212386244071744"
+      },
+      {
+        "file": "src/app/json-schemas/events.schema.json",
+        "hash": "17530047073717310913"
+      },
+      {
+        "file": "src/app/json-schemas/image.schema.json",
+        "hash": "12318768863760581979"
+      },
+      {
+        "file": "src/app/json-schemas/label.schema.json",
+        "hash": "17945144711214227223"
       },
       {
         "file": "src/app/models/bullet.model.ts",
@@ -211,7 +247,7 @@
       },
       {
         "file": "src/app/models/event.model.ts",
-        "hash": "112673973131250934"
+        "hash": "8694809077436558795"
       },
       {
         "file": "src/app/models/index.ts",
@@ -222,16 +258,12 @@
         "hash": "2455560644084315970"
       },
       {
-        "file": "src/app/pipes/icon.pipe.ts",
-        "hash": "7979376536350493037"
-      },
-      {
         "file": "src/app/pipes/label-string.pipe.ts",
         "hash": "571381178847268095"
       },
       {
         "file": "src/app/services/events.service.ts",
-        "hash": "15031651844291181324"
+        "hash": "4499133770342638902"
       },
       {
         "file": "src/app/services/scroll-listener.service.ts",
@@ -239,7 +271,11 @@
       },
       {
         "file": "src/app/stylings/_all.scss",
-        "hash": "2598358278156496079"
+        "hash": "8484588941975031978"
+      },
+      {
+        "file": "src/app/stylings/_typography.scss",
+        "hash": "6380920806052153075"
       },
       {
         "file": "src/app/stylings/_variables.scss",
@@ -247,11 +283,11 @@
       },
       {
         "file": "src/app/stylings/css-variables.scss",
-        "hash": "8890923906186856326"
+        "hash": "15596123262110495655"
       },
       {
         "file": "src/app/stylings/main.scss",
-        "hash": "14762896075328472072"
+        "hash": "186951772312273934"
       },
       {
         "file": "src/app/utils/array.ts",
@@ -299,11 +335,11 @@
       },
       {
         "file": "src/assets/images/icons/bullet-expandable.svg",
-        "hash": "13179527564524109"
+        "hash": "5016414935024544996"
       },
       {
         "file": "src/assets/images/icons/bullet.svg",
-        "hash": "801628027639857884"
+        "hash": "15595159522437752769"
       },
       {
         "file": "src/assets/images/icons/cambridge-uni.png",
@@ -374,6 +410,10 @@
         "hash": "8734097604522544639"
       },
       {
+        "file": "src/assets/images/icons/various.png",
+        "hash": "3779595785932041002"
+      },
+      {
         "file": "src/assets/images/icons/violin.png",
         "hash": "11128712621459145125"
       },
@@ -391,7 +431,7 @@
       },
       {
         "file": "src/index.html",
-        "hash": "14353394147477549817"
+        "hash": "13985594770301274198"
       },
       {
         "file": "src/main.server.ts",
@@ -403,7 +443,7 @@
       },
       {
         "file": "src/styles.scss",
-        "hash": "6845778849872162455"
+        "hash": "12011331544057447996"
       },
       {
         "file": "tsconfig.app.json",
