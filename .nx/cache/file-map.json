@@ -219,7 +219,7 @@
       },
       {
         "file": "src/app/events.json",
-        "hash": "5195653610857056478"
+        "hash": "4603978834877632238"
       },
       {
         "file": "src/app/events.ts",
@@ -227,7 +227,7 @@
       },
       {
         "file": "src/app/json-schemas/event.schema.json",
-        "hash": "14804212386244071744"
+        "hash": "7805147110410472948"
       },
       {
         "file": "src/app/json-schemas/events.schema.json",
@@ -235,7 +235,7 @@
       },
       {
         "file": "src/app/json-schemas/image.schema.json",
-        "hash": "12318768863760581979"
+        "hash": "15650638765972374486"
       },
       {
         "file": "src/app/json-schemas/label.schema.json",
@@ -358,8 +358,16 @@
         "hash": "16825065953761185846"
       },
       {
+        "file": "src/assets/images/icons/contact.png",
+        "hash": "15124819611570712956"
+      },
+      {
         "file": "src/assets/images/icons/cube.png",
         "hash": "12941480018740938814"
+      },
+      {
+        "file": "src/assets/images/icons/email.png",
+        "hash": "17921738381952368376"
       },
       {
         "file": "src/assets/images/icons/football.jpg",
