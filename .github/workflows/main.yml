@@ -51,3 +51,11 @@ jobs:
     - name: Deploy to GitHub Pages
       id: deployment
       uses: actions/deploy-pages@v4
+    - name: upload-to-erekle-uk
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+      with:
+        server: vip17.freeola.net
+        username: vip0274151
+        password: ${{ secrets.EREKLE_UK_FTP_PASSWORD }}
+        server-dir: htdocs/cv/
+        local-dir: ./dist/erekle-cv/browser/
