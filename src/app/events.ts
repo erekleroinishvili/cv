@@ -8,6 +8,7 @@ export const EVENTS: CvEvent[] = [
         icon: 'hat.png',
         label: 'Schooling',
         expand: 2,
+        autoExpand: false,
         events: [
             {
                 icon: 'cambridge-uni.png',
@@ -69,6 +70,7 @@ export const EVENTS: CvEvent[] = [
     {
         icon: 'coding.png',
         label: 'Coding Competitions',
+        autoExpand: false,
         events: [
             {
                 icon: 'ioi-32.png',
@@ -363,6 +365,7 @@ export const EVENTS: CvEvent[] = [
     {
         icon: 'maths.png',
         label: 'Mathematics Competitions',
+        autoExpand: false,
         events: [
             {
                 label: [
@@ -693,6 +696,7 @@ export const EVENTS: CvEvent[] = [
     {
         icon: 'timer.png',
         label: 'Other Olympiads',
+        autoExpand: false,
         events: [
             {
                 label: 'Silver Award, British Physics Olympiad Senior Physics Challenge',
@@ -778,61 +782,69 @@ export const EVENTS: CvEvent[] = [
         ]
     },
     {
-        icon: 'hat.png',
-        label: [
-            'Awards and Participation at ',
-            {
-                label: 'Haberdashers\' Boys\' School',
-                url: 'https://www.habsboys.org.uk/'
-            }
-        ],
+        icon: 'various.png',
+        label: 'Miscellaneous',
         autoExpand: false,
-        expand: 5,
+        expand: 3,
         events: [
             {
-                label: 'Vice-Chair of Computing Society',
-                start: 2022,
-                end: 2023
-            },
-            {
-                label: 'Aske Scholarship - school founder’s titular scholarship for outstanding academic success and contribution to the community',
-                date: 2021
-            },
-            {
-                label: 'Birch Prize - for contributing the most to the HABS community',
-                date: 2022
-            },
-            {
-                icon: 'warplane.jpg',
-                label: 'Warrant Officer, Head of School\'s Royal Air Force Section',
-                date: 2022
-            },
-            {
+                icon: 'hat.png',
                 label: [
-                    'Winner of ',
+                    'Awards and Participation at ',
                     {
-                        label: 'HABS Dragons\' Den',
-                        url: 'https://www.habsboys.org.uk/post-article/~board/news/post/habs-welcomed-star-studded-panel-to-elstree-for-dragons-den-event'
+                        label: 'Haberdashers\' Boys\' School',
+                        url: 'https://www.habsboys.org.uk/'
                     }
                 ],
-                date: 2020
-            },
-            {
-                label: [
-                    'The Duke of Edinburgh\'s (',
+                autoExpand: false,
+                expand: 5,
+                events: [
                     {
-                        label: 'DofE',
-                        url: 'https://www.dofe.org/'
+                        label: 'Vice-Chair of Computing Society',
+                        start: 2022,
+                        end: 2023
                     },
-                    ') ',
                     {
-                        label: 'Bronze Award',
-                        url: 'https://www.dofe.org/wp-content/uploads/2020/07/DofE-Bronze-What-is-the-DofE-presentation-midlength.pdf'
+                        label: 'Aske Scholarship - school founder’s titular scholarship for outstanding academic success and contribution to the community',
+                        date: 2021
+                    },
+                    {
+                        label: 'Birch Prize - for contributing the most to the HABS community',
+                        date: 2022
+                    },
+                    {
+                        icon: 'warplane.jpg',
+                        label: 'Warrant Officer, Head of School\'s Royal Air Force Section',
+                        date: 2022
+                    },
+                    {
+                        label: [
+                            'Winner of ',
+                            {
+                                label: 'HABS Dragons\' Den',
+                                url: 'https://www.habsboys.org.uk/post-article/~board/news/post/habs-welcomed-star-studded-panel-to-elstree-for-dragons-den-event'
+                            }
+                        ],
+                        date: 2020
+                    },
+                    {
+                        label: [
+                            'The Duke of Edinburgh\'s (',
+                            {
+                                label: 'DofE',
+                                url: 'https://www.dofe.org/'
+                            },
+                            ') ',
+                            {
+                                label: 'Bronze Award',
+                                url: 'https://www.dofe.org/wp-content/uploads/2020/07/DofE-Bronze-What-is-the-DofE-presentation-midlength.pdf'
+                            }
+                        ],
+                        date: 2019
                     }
-                ],
-                date: 2019
+                ]
             }
         ]
-    }
+    },
 ]
 
