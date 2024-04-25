@@ -30,7 +30,7 @@ type UserExpandStatus = 'initial' | 'collapsed' | 'expanded' | 'expanded-more'
   animations: [
     trigger('retire', [
       state('void', style({
-        transform: 'translate3d(300px, 0, 0)',
+        transform: 'translate3d(50px, 0, 0)',
         opacity: 0,
       })),
       transition(':leave', animate(300))
