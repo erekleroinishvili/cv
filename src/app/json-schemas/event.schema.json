@@ -7,6 +7,11 @@
     "additionalProperties": false,
     "required": ["label"],
     "properties": {
+        "hidden": {
+            "type": "boolean",
+            "default": true,
+            "description": "Whether the event should be hidden. Default to false."
+        },
         "label": {
             "$ref": "./label.schema.json",
             "description": "Textual description of the item"
