@@ -1,0 +1,7 @@
+@for (entry of label(); track entry) {
+    @if (entry.type === 'text') {
+        <span [innerHTML]="entry.label"></span>
+    } @else {
+        <a [href]="entry.url" [innerHTML]="entry.label"></a>
+    }
+}

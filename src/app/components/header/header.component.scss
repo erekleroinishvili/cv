@@ -1,0 +1,60 @@
+@import 'all';
+
+:host {
+    display: block;
+    background-color: white;
+    padding: 8px var(--page-inline-padding) 0 var(--page-inline-padding);
+    margin-block-end: 8px;
+    border-bottom: thin solid lightgray;
+    z-index: 10;
+    transition: box-shadow 500ms;
+    top: 0;
+    @media (min-width: $big-screen) {
+        position: sticky;
+    }
+}
+
+:host.shadow {
+    @media (min-width: $big-screen) {
+        box-shadow: 0 5px 10px lightgray;
+    }
+}
+
+.header-contents {
+    max-width: var(--page-max-width);
+    margin-inline: auto;
+    @media (min-width: $big-screen) {
+        display: grid;
+        grid-template-columns: minmax(80px, 120px) 1fr max-content;
+        gap: 24px 16px;
+        place-items: center;
+    }
+}
+
+img.rubber-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.erekle-name {
+    font-family: 'Tangerine', serif;
+    font-size: 48px;
+    line-height: 52px;
+    text-shadow: 4px 4px 4px #aaa;
+    text-align: center;
+    @media (min-width: 500px) and (max-width: 699px) {
+        font-size: 32px;
+        line-height: 32px;
+    }
+    @media (min-width: 700px) {
+        font-size: 72px;
+        line-height: 72px;
+    }
+}
+
+.icons {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    gap: 8px;
+}

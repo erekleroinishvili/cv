@@ -1,0 +1,25 @@
+:host {
+    display: block;
+    // margin-block-start: calc(20px * 2 / (var(--level) + 1));
+    // margin-inline-start: calc(var(--level) * var(--indent-unit-left, 10px));
+}
+
+.indent {
+    display: inline-block;
+    width: calc(var(--level) * var(--indent-unit-left, 10px));
+}
+
+.event-header {
+    display: grid;
+    padding-block-end: 4px;
+    grid-template-columns: max-content max-content 1fr max-content;
+    align-items: center;
+    gap: 16px 8px;
+
+    border-block-end: 1px solid transparent;
+    transition: border-block-end-color 500ms;
+
+    &.expanded {
+        border-block-end-color: lightgray;
+    }
+}

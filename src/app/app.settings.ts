@@ -1,0 +1,1 @@
+export const ICONS_HOME = 'assets/images/icons/'

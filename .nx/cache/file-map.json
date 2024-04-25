@@ -1,0 +1,422 @@
+{
+  "version": "6.0",
+  "nxVersion": "18.3.3",
+  "deps": {
+    "@angular/animations": "^17.3.0",
+    "@angular/cdk": "^17.3.5",
+    "@angular/common": "^17.3.0",
+    "@angular/compiler": "^17.3.0",
+    "@angular/core": "^17.3.0",
+    "@angular/forms": "^17.3.0",
+    "@angular/material": "^17.3.5",
+    "@angular/platform-browser": "^17.3.0",
+    "@angular/platform-browser-dynamic": "^17.3.0",
+    "@angular/platform-server": "^17.3.0",
+    "@angular/router": "^17.3.0",
+    "@angular/ssr": "^17.3.5",
+    "express": "^4.18.2",
+    "rxjs": "~7.8.0",
+    "tslib": "^2.3.0",
+    "zone.js": "~0.14.3",
+    "@angular-devkit/build-angular": "^17.3.5",
+    "@angular-eslint/builder": "17.3.0",
+    "@angular-eslint/eslint-plugin": "17.3.0",
+    "@angular-eslint/eslint-plugin-template": "17.3.0",
+    "@angular-eslint/schematics": "17.3.0",
+    "@angular-eslint/template-parser": "17.3.0",
+    "@angular/cli": "^17.3.5",
+    "@angular/compiler-cli": "^17.3.0",
+    "@types/express": "^4.17.17",
+    "@types/jasmine": "~5.1.0",
+    "@types/node": "^18.18.0",
+    "@typescript-eslint/eslint-plugin": "7.2.0",
+    "@typescript-eslint/parser": "7.2.0",
+    "eslint": "^8.57.0",
+    "jasmine-core": "~5.1.0",
+    "karma": "~6.4.0",
+    "karma-chrome-launcher": "~3.2.0",
+    "karma-coverage": "~2.2.0",
+    "karma-jasmine": "~5.1.0",
+    "karma-jasmine-html-reporter": "~2.1.0",
+    "typescript": "~5.4.2"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "projectFileMap": {},
+    "nonProjectFiles": [
+      {
+        "file": ".editorconfig",
+        "hash": "17241496168097493888"
+      },
+      {
+        "file": ".eslintrc.json",
+        "hash": "6277340395568879347"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "4689145951703824387"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "11934160580685414355"
+      },
+      {
+        "file": ".vscode/launch.json",
+        "hash": "17406702432687230417"
+      },
+      {
+        "file": ".vscode/tasks.json",
+        "hash": "10093397977228577162"
+      },
+      {
+        "file": "README.md",
+        "hash": "12822819865717051201"
+      },
+      {
+        "file": "angular.json",
+        "hash": "12435276817254407500"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "3836265496230814909"
+      },
+      {
+        "file": "package.json",
+        "hash": "14060734292570885275"
+      },
+      {
+        "file": "server.ts",
+        "hash": "17556996765790181515"
+      },
+      {
+        "file": "src/app/app.component.html",
+        "hash": "14326468053483265284"
+      },
+      {
+        "file": "src/app/app.component.scss",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/app.component.ts",
+        "hash": "11857885899613537424"
+      },
+      {
+        "file": "src/app/app.config.server.ts",
+        "hash": "15184490126418035619"
+      },
+      {
+        "file": "src/app/app.config.ts",
+        "hash": "1132335673429873802"
+      },
+      {
+        "file": "src/app/app.routes.ts",
+        "hash": "4480204087061739332"
+      },
+      {
+        "file": "src/app/app.settings.ts",
+        "hash": "13291220334809973603"
+      },
+      {
+        "file": "src/app/components/accordion/accordion.component.html",
+        "hash": "9064666852551740009"
+      },
+      {
+        "file": "src/app/components/accordion/accordion.component.scss",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/components/accordion/accordion.component.ts",
+        "hash": "15121758550664699731"
+      },
+      {
+        "file": "src/app/components/bullet/bullet.component.html",
+        "hash": "8467843324686397889"
+      },
+      {
+        "file": "src/app/components/bullet/bullet.component.scss",
+        "hash": "17732721745801543262"
+      },
+      {
+        "file": "src/app/components/bullet/bullet.component.ts",
+        "hash": "16738032375515470262"
+      },
+      {
+        "file": "src/app/components/cv-event/cv-event.component.html",
+        "hash": "2515386449368572745"
+      },
+      {
+        "file": "src/app/components/cv-event/cv-event.component.scss",
+        "hash": "15918970398539438190"
+      },
+      {
+        "file": "src/app/components/cv-event/cv-event.component.ts",
+        "hash": "17825139936900785214"
+      },
+      {
+        "file": "src/app/components/cv/cv.component.html",
+        "hash": "9245475697271833067"
+      },
+      {
+        "file": "src/app/components/cv/cv.component.scss",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/components/cv/cv.component.ts",
+        "hash": "9947422227855373205"
+      },
+      {
+        "file": "src/app/components/header/header.component.html",
+        "hash": "8216739983071388521"
+      },
+      {
+        "file": "src/app/components/header/header.component.scss",
+        "hash": "7980518541543331721"
+      },
+      {
+        "file": "src/app/components/header/header.component.ts",
+        "hash": "1928553983277039546"
+      },
+      {
+        "file": "src/app/components/label/label.component.html",
+        "hash": "16734879353206512157"
+      },
+      {
+        "file": "src/app/components/label/label.component.scss",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/components/label/label.component.ts",
+        "hash": "449202205956697736"
+      },
+      {
+        "file": "src/app/components/range/range.component.html",
+        "hash": "10229081541707027405"
+      },
+      {
+        "file": "src/app/components/range/range.component.scss",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/components/range/range.component.ts",
+        "hash": "8005070663374559434"
+      },
+      {
+        "file": "src/app/events.ts",
+        "hash": "2089224626057625478"
+      },
+      {
+        "file": "src/app/models/bullet.model.ts",
+        "hash": "13904631728388565451"
+      },
+      {
+        "file": "src/app/models/event.model.ts",
+        "hash": "112673973131250934"
+      },
+      {
+        "file": "src/app/models/index.ts",
+        "hash": "15009193660701888813"
+      },
+      {
+        "file": "src/app/models/label.model.ts",
+        "hash": "2455560644084315970"
+      },
+      {
+        "file": "src/app/pipes/icon.pipe.ts",
+        "hash": "7979376536350493037"
+      },
+      {
+        "file": "src/app/pipes/label-string.pipe.ts",
+        "hash": "571381178847268095"
+      },
+      {
+        "file": "src/app/services/events.service.ts",
+        "hash": "15031651844291181324"
+      },
+      {
+        "file": "src/app/services/scroll-listener.service.ts",
+        "hash": "18317793237828685212"
+      },
+      {
+        "file": "src/app/stylings/_all.scss",
+        "hash": "2598358278156496079"
+      },
+      {
+        "file": "src/app/stylings/_variables.scss",
+        "hash": "2968240236910159019"
+      },
+      {
+        "file": "src/app/stylings/css-variables.scss",
+        "hash": "8890923906186856326"
+      },
+      {
+        "file": "src/app/stylings/main.scss",
+        "hash": "14762896075328472072"
+      },
+      {
+        "file": "src/app/utils/array.ts",
+        "hash": "10581686010722701032"
+      },
+      {
+        "file": "src/app/utils/label.utils.ts",
+        "hash": "16929020007055798853"
+      },
+      {
+        "file": "src/app/utils/string.ts",
+        "hash": "14242715348916280730"
+      },
+      {
+        "file": "src/app/utils/type-guards.ts",
+        "hash": "7518675879280621918"
+      },
+      {
+        "file": "src/assets/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/assets/images/erekle-black-tie-500.png",
+        "hash": "5572128573266489078"
+      },
+      {
+        "file": "src/assets/images/icons/1.png",
+        "hash": "13086821191023441914"
+      },
+      {
+        "file": "src/assets/images/icons/100.png",
+        "hash": "1057205551863472457"
+      },
+      {
+        "file": "src/assets/images/icons/airplane.png",
+        "hash": "15064286542871240301"
+      },
+      {
+        "file": "src/assets/images/icons/basketball.png",
+        "hash": "12773206617570207318"
+      },
+      {
+        "file": "src/assets/images/icons/bronze.png",
+        "hash": "6454581574943572418"
+      },
+      {
+        "file": "src/assets/images/icons/bullet-expandable.svg",
+        "hash": "13179527564524109"
+      },
+      {
+        "file": "src/assets/images/icons/bullet.svg",
+        "hash": "801628027639857884"
+      },
+      {
+        "file": "src/assets/images/icons/cambridge-uni.png",
+        "hash": "8470932093688806006"
+      },
+      {
+        "file": "src/assets/images/icons/chess.png",
+        "hash": "8372293963779366246"
+      },
+      {
+        "file": "src/assets/images/icons/codeforces-32.png",
+        "hash": "15248893966433808848"
+      },
+      {
+        "file": "src/assets/images/icons/coding.png",
+        "hash": "16825065953761185846"
+      },
+      {
+        "file": "src/assets/images/icons/cube.png",
+        "hash": "12941480018740938814"
+      },
+      {
+        "file": "src/assets/images/icons/football.jpg",
+        "hash": "2668986957908932009"
+      },
+      {
+        "file": "src/assets/images/icons/gold.png",
+        "hash": "6476171032112154636"
+      },
+      {
+        "file": "src/assets/images/icons/guitar.png",
+        "hash": "14906671692136321901"
+      },
+      {
+        "file": "src/assets/images/icons/habs.jpg",
+        "hash": "8729112259782710472"
+      },
+      {
+        "file": "src/assets/images/icons/hat.png",
+        "hash": "4933464666336347432"
+      },
+      {
+        "file": "src/assets/images/icons/ioi-32.png",
+        "hash": "5908135988114152672"
+      },
+      {
+        "file": "src/assets/images/icons/linkedin-32.png",
+        "hash": "17737320590466968992"
+      },
+      {
+        "file": "src/assets/images/icons/maths.png",
+        "hash": "5199461665469975395"
+      },
+      {
+        "file": "src/assets/images/icons/rowing.png",
+        "hash": "3586380148188898769"
+      },
+      {
+        "file": "src/assets/images/icons/silver.png",
+        "hash": "12870077711193158533"
+      },
+      {
+        "file": "src/assets/images/icons/timer.png",
+        "hash": "12133852922450161715"
+      },
+      {
+        "file": "src/assets/images/icons/uk-flag.png",
+        "hash": "8734097604522544639"
+      },
+      {
+        "file": "src/assets/images/icons/violin.png",
+        "hash": "11128712621459145125"
+      },
+      {
+        "file": "src/assets/images/icons/warplane.jpg",
+        "hash": "4280308564670020946"
+      },
+      {
+        "file": "src/assets/images/icons/youtube.png",
+        "hash": "14328694727982995390"
+      },
+      {
+        "file": "src/favicon.ico",
+        "hash": "17914248306941069493"
+      },
+      {
+        "file": "src/index.html",
+        "hash": "14353394147477549817"
+      },
+      {
+        "file": "src/main.server.ts",
+        "hash": "9257623809215978365"
+      },
+      {
+        "file": "src/main.ts",
+        "hash": "4169901790405087765"
+      },
+      {
+        "file": "src/styles.scss",
+        "hash": "6845778849872162455"
+      },
+      {
+        "file": "tsconfig.app.json",
+        "hash": "2442507913137902887"
+      },
+      {
+        "file": "tsconfig.json",
+        "hash": "3200458784466797971"
+      },
+      {
+        "file": "tsconfig.spec.json",
+        "hash": "5122839733245053999"
+      }
+    ]
+  }
+}

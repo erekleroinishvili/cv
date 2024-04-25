@@ -1,0 +1,15 @@
+@if ( bullet() === 'bullet') {
+    <img
+        src="assets/images/icons/bullet.svg"
+        width="16" height="16"
+        alt="Bullet"
+    />
+} @else if (bullet() === 'collapsed' || bullet() === 'expanded') {
+    <img
+        class="expandable"
+        [class.expanded]="bullet()==='expanded'"
+        src="assets/images/icons/bullet-expandable.svg"
+        width="16" height="16"
+        alt="Expandable Bullet"
+    />
+}

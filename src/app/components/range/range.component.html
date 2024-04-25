@@ -1,0 +1,5 @@
+@if (event().date) {
+    {{ event().date }}
+} @else if ( event().start || event().end ) {
+    {{ event().start }} &ndash; {{ event().end || 'now'}}
+}
