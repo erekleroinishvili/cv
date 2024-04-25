@@ -1,0 +1,41 @@
+{
+    "$schema": "https://json-schema.org/draft-07/schema",
+    "$id": "https://raw.githubusercontent.com/erekleroinishvili/cv/main/src/app/json-schemas/events.schema.json",
+    "title": "Label, or text and hyperlinks interleaved",
+
+    "anyOf": [
+        {
+            "type": "string"
+        },
+        {
+            "type": "array",
+            "items": {
+                "anyOf": [
+                    {
+                        "type": "string"
+                    },
+                    {
+                        "type": "object",
+                        "additionalProperties": false,
+                        "required": ["label"],
+                        "properties": {
+                            "type": {
+                                "enum": ["link", "text"],
+                                "default": "text",
+                                "description": "Whether the segment should be displayed as plain text or as a link (default)."
+                            },
+                            "label": {
+                                "type": "string",
+                                "description": "Text to be displayed"
+                            },
+                            "url": {
+                                "type": "string",
+                                "description": "Target URL where the link should point"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

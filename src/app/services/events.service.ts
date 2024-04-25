@@ -1,11 +1,22 @@
 import { Injectable } from '@angular/core';
-import { EVENTS } from '../events';
+import { ajax } from 'rxjs/ajax'
+import { CvEvent } from '../models';
+import { firstValueFrom, map, share } from 'rxjs';
+// import { EVENTS } from '../events';
 
 @Injectable({
   providedIn: 'root'
 })
 export class EventsService {
 
-  events = Promise.resolve(EVENTS)
+  private eventsReply = ajax.getJSON<{events: CvEvent[]}>('events.json').pipe(
+    map(reply => reply.events),
+    share({resetOnError: true}),
+  )
+  events = firstValueFrom(this.eventsReply)
+
+  // events = fetch('events.json')
+  //   .then(response => response.json())
+  //   .then((reply: {events: CvEvent[]}) => reply.events)
 
 }

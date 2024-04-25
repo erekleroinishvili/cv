@@ -1,0 +1,38 @@
+{
+    "$schema": "https://json-schema.org/draft-07/schema",
+    "$id": "https://raw.githubusercontent.com/erekleroinishvili/cv/main/src/app/json-schemas/image.schema.json",
+    "title": "Icon images available for display in the CV",
+
+    "enum": [
+        "1.png",
+        "100.png",
+        "airplane.png",
+        "basketball.png",
+        "bronze.png",
+        "bullet-expandable.svg",
+        "bullet.svg",
+        "cambridge-uni.png",
+        "chess.png",
+        "codeforces-32.png",
+        "coding.png",
+        "cube.png",
+        "football.jpg",
+        "gold.png",
+        "guitar.png",
+        "habs.jpg",
+        "hat.png",
+        "ioi-32.png",
+        "linkedin-32.png",
+        "maths.png",
+        "rowing.png",
+        "silver.png",
+        "timer.png",
+        "uk-flag.png",
+        "various.png",
+        "violin.png",
+        "warplane.jpg",
+        "youtube.png",
+
+        null
+    ]
+}

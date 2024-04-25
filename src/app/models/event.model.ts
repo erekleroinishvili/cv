@@ -7,7 +7,7 @@ export interface CvEvent {
     end?: number | string | null
     date?: number | string | null
 
-    events?: CvEvent[] | null
     expand?: number
     autoExpand?: boolean
+    events?: CvEvent[] | null
 }
