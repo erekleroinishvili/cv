@@ -58,4 +58,5 @@ jobs:
         username: vip0274151
         password: ${{ secrets.EREKLE_UK_FTP_PASSWORD }}
         server-dir: htdocs/cv/
+        dangerous-clean-slate: true
         local-dir: ./dist/erekle-cv/browser/
