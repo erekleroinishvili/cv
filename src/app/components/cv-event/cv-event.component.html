@@ -18,7 +18,10 @@
         <erekle-cv-event [event]="e" [level]="level() + 1" />
     }
     @if ( showMoreButton() ) {
-        <button mat-button @retire color="primary" (click)="userExpanded.set('expanded-more')"><mat-icon>double_arrow</mat-icon>Show {{ moreEvents()!.length }} more</button>
+        <button mat-raised-button @retire color="primary" (click)="userExpanded.set('expanded-more')">
+            <mat-icon>double_arrow</mat-icon>
+            Show {{ moreEvents()!.length }} more
+        </button>
     }
 </erekle-accordion>
 <!-- E N D: Show minimum events -->

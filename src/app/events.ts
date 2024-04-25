@@ -165,6 +165,7 @@ export const EVENTS: CvEvent[] = [
             {
                 icon: 'coding.png',
                 label: 'Other Coding Competitions',
+                autoExpand: false,
                 events: [
                     {
                         label: 'Team “treenity” of University of Cambridge, ICPC Europe, Prague',
