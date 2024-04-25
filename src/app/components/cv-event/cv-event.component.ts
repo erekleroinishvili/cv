@@ -5,7 +5,8 @@ import { BulletComponent } from '../bullet/bullet.component';
 import { IconComponent } from '../icon/icon.component';
 import { LabelComponent } from '../label/label.component';
 import { LabelStringPipe } from '../../pipes/label-string.pipe';
-import { MatButtonModule } from '@angular/material/button'
+import { MatButtonModule } from '@angular/material/button';
+import { MatIconModule } from '@angular/material/icon';
 import { RangeComponent } from '../range/range.component';
 import { animate, state, style, transition, trigger } from '@angular/animations';
 
@@ -21,6 +22,7 @@ type UserExpandStatus = 'initial' | 'collapsed' | 'expanded' | 'expanded-more'
     LabelComponent,
     LabelStringPipe,
     MatButtonModule,
+    MatIconModule,
     RangeComponent,
   ],
   templateUrl: './cv-event.component.html',
