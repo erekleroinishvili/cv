@@ -22,45 +22,45 @@
       "type": "npm",
       "name": "npm:@angular-devkit/architect",
       "data": {
-        "version": "0.1703.5",
+        "version": "0.1703.6",
         "packageName": "@angular-devkit/architect",
-        "hash": "sha512-j3+9QeXIafuRMtk7N5Cmm/IiMSS/TOaybzfCv/LK+DP3hjEd8f8Az7hPmevUuOArvWNzUvoUeu30GmR3wABydA=="
+        "hash": "sha512-Ck501FD/QuOjeKVFs7hU92w8+Ffetv0d5Sq09XY2/uygo5c/thMzp9nkevaIWBxUSeU5RqYZizDrhFVgYzbbOw=="
       }
     },
     "npm:@angular-devkit/build-angular": {
       "type": "npm",
       "name": "npm:@angular-devkit/build-angular",
       "data": {
-        "version": "17.3.5",
+        "version": "17.3.6",
         "packageName": "@angular-devkit/build-angular",
-        "hash": "sha512-Ju2MkMidJglJq/iWgM9CNbhK7A/2n0LNYPZx+ucb+aOFWvurCQrU4Mt/es6xCsxOEs5OPhjqdva8mxE5FHwzTQ=="
+        "hash": "sha512-K4CEZvhQZUUOpmXPVoI1YBM8BARbIlqE6FZRxakmnr+YOtVTYE5s+Dr1wgja8hZIohNz6L7j167G9Aut7oPU/w=="
       }
     },
     "npm:@angular-devkit/build-webpack": {
       "type": "npm",
       "name": "npm:@angular-devkit/build-webpack",
       "data": {
-        "version": "0.1703.5",
+        "version": "0.1703.6",
         "packageName": "@angular-devkit/build-webpack",
-        "hash": "sha512-KcoKlWhDP6+2q3laQ6elXLt2QrVxWJFdCPUC9dIm0Tnc997Tal/UVhlDKaZgITYDgDvRFqG+tzNm2uFd8l7h+A=="
+        "hash": "sha512-pJu0et2SiF0kfXenHSTtAART0omzbWpLgBfeUo4hBh4uwX5IaT+mRpYpr8gCXMq+qsjoQp3HobSU3lPDeBn+bg=="
       }
     },
     "npm:@angular-devkit/core": {
       "type": "npm",
       "name": "npm:@angular-devkit/core",
       "data": {
-        "version": "17.3.5",
+        "version": "17.3.6",
         "packageName": "@angular-devkit/core",
-        "hash": "sha512-iqGv45HVI+yRROoTqQTY0QChYlRCZkFUfIjdfJLegjc6xq9sLtxDr03CWM45BKGG5lSxDOy+qu/pdRvtL3V2eg=="
+        "hash": "sha512-FVbkT9dEwHEvjnxr4mvMNSMg2bCFoGoP4X68xXU9dhLEUpC05opLvfbaR3Qh543eCJ5AstosBFVzB/krfIkOvA=="
       }
     },
     "npm:@angular-devkit/schematics": {
       "type": "npm",
       "name": "npm:@angular-devkit/schematics",
       "data": {
-        "version": "17.3.5",
+        "version": "17.3.6",
         "packageName": "@angular-devkit/schematics",
-        "hash": "sha512-oh/mvpMKxGfk5v9QIB7LfGsDC/iVpmsIAvbb4+1ddCx86EJXdz3xWnVDbUehOd6n7HJXnQrNirWjWvWquM2GhQ=="
+        "hash": "sha512-2G1YuPInd8znG7uUgKOS7z72Aku50lTzB/2csWkWPJLAFkh7vKC8QZ40x8S1nC9npVYPhI5CRLX/HVpBh9CyxA=="
       }
     },
     "npm:@angular-eslint/builder": {
@@ -130,9 +130,9 @@
       "type": "npm",
       "name": "npm:@angular/animations",
       "data": {
-        "version": "17.3.5",
+        "version": "17.3.6",
         "packageName": "@angular/animations",
-        "hash": "sha512-hbfCnBxwhYQMKB+9tDcmfvckUtB8LdY1gPST6TZ7CzrWCSPddsnXxqxBZSBjBI6zXvE4FOV3kUzaUXM/Bq5sRw=="
+        "hash": "sha512-ev99cnmc1S/SXYz9OwOyZQyHXHiUf+ZwQFpjYBRPoyKqZV4sOYMlyBbfjBO/GgCVrsGfMvBsCI6PtY3yquuabA=="
       }
     },
     "npm:@angular/cdk": {
@@ -148,36 +148,36 @@
       "type": "npm",
       "name": "npm:@angular/cli",
       "data": {
-        "version": "17.3.5",
+        "version": "17.3.6",
         "packageName": "@angular/cli",
-        "hash": "sha512-6MHJzPKy4uB9qlJO1eKs4rtDlRuCe0lOiz1f3kHFZ/GQQm5xA1xsmZJMN4ASsnu4yU3oZs6vJ/vt8i2/jvdPbA=="
+        "hash": "sha512-poKaRPeI+hFqX+AxIaEriaIggFVcC3XqlT9E1/uBC2rfHirE1n5F9Z7xqEDtMHduKwLbNXhQIPoKIKya8+Hnew=="
       }
     },
     "npm:@angular/common": {
       "type": "npm",
       "name": "npm:@angular/common",
       "data": {
-        "version": "17.3.5",
+        "version": "17.3.6",
         "packageName": "@angular/common",
-        "hash": "sha512-Ox91WxSnOSrQ6I21cHi69EfT2Pxtd5Knb5AsdwpxqE57V2E7EnWMhb+LP+holCtFUhK529EGXCk788M+Elyw6g=="
+        "hash": "sha512-ufviCFzQQKWcwc2j3Zi8bHbwkvqh4QU6GDH0u0usOee8xd8KrjgcYl3vD0r1/yxlDsd53Wg9kNRvz/fY+5qQoQ=="
       }
     },
     "npm:@angular/compiler": {
       "type": "npm",
       "name": "npm:@angular/compiler",
       "data": {
-        "version": "17.3.5",
+        "version": "17.3.6",
         "packageName": "@angular/compiler",
-        "hash": "sha512-lTubBFNlpH9zK46+yeVI7VJQNUELLAB8W1ucndYLCA9Rr9Jop+rYIXijmr42AGokOYr7yLc8HRiSQ5e+X2pUQg=="
+        "hash": "sha512-ybx9O76RGv4J97IThiSVvvWukuGcuXu50KsBDPUd874BFT3ml0OcRGhXoMh/isz7EQipiiGgsA51cJVTLES5Zw=="
       }
     },
     "npm:@angular/compiler-cli": {
       "type": "npm",
       "name": "npm:@angular/compiler-cli",
       "data": {
-        "version": "17.3.5",
+        "version": "17.3.6",
         "packageName": "@angular/compiler-cli",
-        "hash": "sha512-R53JNbbVDHWSGdL0e2vGQ5iJCrILOWZ1oemKjekOFB93fUBlEyi+nZmm4uTO7RU8PgjB0UpxI6ok5ZE3Amkt6A=="
+        "hash": "sha512-LaoUkY6uzcNocIEHJBvexvuU0a333IRQaG3Sj5IXhM1t864wTsfycn6yWJcQ7PhklB8BtNqiMbUQuEFtkxT8pg=="
       }
     },
     "npm:@babel/core@7.23.9": {
@@ -247,18 +247,18 @@
       "type": "npm",
       "name": "npm:@angular/core",
       "data": {
-        "version": "17.3.5",
+        "version": "17.3.6",
         "packageName": "@angular/core",
-        "hash": "sha512-y6P27lcrKy3yMx/rtMuGsAnDyVEsS3BdyArTXcD0TOImVGHhVIaB0L95DUCam3ajTe2f2x39eozJZDh7QSpJaw=="
+        "hash": "sha512-8IoeZVNqyeHA+H2dR3VFfz76/TFN1BpXP0aABs2aIUNVQRYlKxALSm1UlavijX8IT0uvd/6GXwE3WgymTcg0wg=="
       }
     },
     "npm:@angular/forms": {
       "type": "npm",
       "name": "npm:@angular/forms",
       "data": {
-        "version": "17.3.5",
+        "version": "17.3.6",
         "packageName": "@angular/forms",
-        "hash": "sha512-Rf/8XWHdFYZQaOVTJ0QVwxQm9fDqQqIJc0yfPcH/DYL5pT7R0U2z98I5McZawzUBJUo1Zt1gijzDlzNUGf6jiA=="
+        "hash": "sha512-WXxWhwvgRfYLNP2dB4Qe83tavEh2LnS4H0uoiecWHXijW2R9z8304X1vEyS1EtQK7o/s8fCVDVDjeY+hxLnCLw=="
       }
     },
     "npm:@angular/material": {
@@ -274,45 +274,45 @@
       "type": "npm",
       "name": "npm:@angular/platform-browser",
       "data": {
-        "version": "17.3.5",
+        "version": "17.3.6",
         "packageName": "@angular/platform-browser",
-        "hash": "sha512-ITlu/GTD64Sr0FMaFCJiHoTJrEZw8qRFXjPjv3BKhAp5dQKcwnCm02o1NOaj5d8oIItIh5fbI2zP0CSU2qNZkQ=="
+        "hash": "sha512-UikrgvMwtZIXp2pCP5AtkM7ibz2B5wBiGpnhhkYsqHKy9ndKVDA+3B5Z+/j9xeYYdsJAAtHl45zqILewyg+4iw=="
       }
     },
     "npm:@angular/platform-browser-dynamic": {
       "type": "npm",
       "name": "npm:@angular/platform-browser-dynamic",
       "data": {
-        "version": "17.3.5",
+        "version": "17.3.6",
         "packageName": "@angular/platform-browser-dynamic",
-        "hash": "sha512-KuS4j3Gh1h/CEj+bIOc/IcZIdiCB/DNbtUvz1eNp1o23aM8QutqelI3A4WBnQuR4yq8Z/8M3FH9F1OVwwhn2QQ=="
+        "hash": "sha512-dI+mgEROmSll042+XqkSsvkMQe6Et6L9BBiYYe7VbIFaRR9Dz5Pw2SeBLb+Ou+gWaxXc2Wc+13n442WEYWZ7Ew=="
       }
     },
     "npm:@angular/platform-server": {
       "type": "npm",
       "name": "npm:@angular/platform-server",
       "data": {
-        "version": "17.3.5",
+        "version": "17.3.6",
         "packageName": "@angular/platform-server",
-        "hash": "sha512-cQRM+sj4NJZi6udXuoFowWIFLlHwUzNfS3WITbYw4iAI1qRgkVZctbA2aKU6lZg43lEDmts9TOqFB1smUXsdVA=="
+        "hash": "sha512-6pRhf5QAaPKHtvfC3tMMhXZgarWRlLJUOlpUpysy4L2n7fYyYHfL0Ku3czUNU59IcvOkD7sCgA4BC0Y4wWETmA=="
       }
     },
     "npm:@angular/router": {
       "type": "npm",
       "name": "npm:@angular/router",
       "data": {
-        "version": "17.3.5",
+        "version": "17.3.6",
         "packageName": "@angular/router",
-        "hash": "sha512-KsIIs3t9IpxsdMSrJDZzO5WgIWkVE6Ep5WWiSyPIgEfA+ndGpJLmyv0d/r1yKKlYUJxz7Hde55o4thgT2n2x/A=="
+        "hash": "sha512-Gws3zukTlPO5lIGP0bmWBkmbRIRKvpPq6vs3BqQlbKsrfBh45SPvIRbx+BSv6WYUchQzfW7DFDXnQtiTEGGQNg=="
       }
     },
     "npm:@angular/ssr": {
       "type": "npm",
       "name": "npm:@angular/ssr",
       "data": {
-        "version": "17.3.5",
+        "version": "17.3.6",
         "packageName": "@angular/ssr",
-        "hash": "sha512-MBKrIq3w6inFGVjZoCsXRiTYomell6DSLbUUQfvphTN1ExUzbcFvxWoM1p69KmIWqxWlUAECl3sV/cesSeNGRg=="
+        "hash": "sha512-qn+DPjZCmM0e9mKWv/Tq9n+eEIgTvmdbTOm5/t7ugsCAYDfqK9Oip3++6NymXiVkS92i6QVjXZoE1wx3/SWcYA=="
       }
     },
     "npm:@babel/code-frame": {
@@ -2641,9 +2641,9 @@
       "type": "npm",
       "name": "npm:@ngtools/webpack",
       "data": {
-        "version": "17.3.5",
+        "version": "17.3.6",
         "packageName": "@ngtools/webpack",
-        "hash": "sha512-0heI0yHUckdGI8uywu/wkp24KR/tdYMKYJOaYIU+9JydyN1zJRpbR7x0thddl7+k/zu2ZGbfFdv1779Ecw/xdA=="
+        "hash": "sha512-equxbgh2DKzZtiFMoVf1KD4yJcH1q8lpqQ/GSPPQUvONcmHrr+yqdRUdaJ7oZCyCYmXF/nByBxtMKtJr6nKZVg=="
       }
     },
     "npm:@nodelib/fs.scandir": {
@@ -3136,9 +3136,9 @@
       "type": "npm",
       "name": "npm:@schematics/angular",
       "data": {
-        "version": "17.3.5",
+        "version": "17.3.6",
         "packageName": "@schematics/angular",
-        "hash": "sha512-SWCK16Eob0K86hpZ3NHmrTS6LSzTlhvnIdf3BXC6nzoiyDhcAS0oJ2Tjdq1opW/PaL1hB7MulcbIhxYln5du0w=="
+        "hash": "sha512-jCNZdjHSVrI8TrrCnCoXC8GYvQRj7zh+SDdmm91Ve8dbikYNmBOKYLuPaCTsmojWx7ytv962yLlgKzpaa2bbfw=="
       }
     },
     "npm:@sigstore/bundle": {
