@@ -75,7 +75,7 @@
       },
       {
         "file": "README.md",
-        "hash": "12822819865717051201"
+        "hash": "16956578572837393539"
       },
       {
         "file": "angular.json",
@@ -155,7 +155,7 @@
       },
       {
         "file": "src/app/components/cv-event/cv-event.component.ts",
-        "hash": "14933387204722276229"
+        "hash": "4708390604535758071"
       },
       {
         "file": "src/app/components/cv/cv.component.html",
@@ -219,15 +219,11 @@
       },
       {
         "file": "src/app/events.json",
-        "hash": "4603978834877632238"
-      },
-      {
-        "file": "src/app/events.ts",
-        "hash": "17422870018231816922"
+        "hash": "12222612524867151923"
       },
       {
         "file": "src/app/json-schemas/event.schema.json",
-        "hash": "7805147110410472948"
+        "hash": "3379434123007630149"
       },
       {
         "file": "src/app/json-schemas/events.schema.json",
@@ -247,7 +243,7 @@
       },
       {
         "file": "src/app/models/event.model.ts",
-        "hash": "8694809077436558795"
+        "hash": "14043195341946627392"
       },
       {
         "file": "src/app/models/index.ts",
@@ -263,7 +259,7 @@
       },
       {
         "file": "src/app/services/events.service.ts",
-        "hash": "4499133770342638902"
+        "hash": "14695732174223042089"
       },
       {
         "file": "src/app/services/scroll-listener.service.ts",
@@ -292,6 +288,10 @@
       {
         "file": "src/app/utils/array.ts",
         "hash": "10581686010722701032"
+      },
+      {
+        "file": "src/app/utils/events.ts",
+        "hash": "15576250790807693012"
       },
       {
         "file": "src/app/utils/label.utils.ts",
