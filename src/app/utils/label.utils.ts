@@ -1,4 +1,4 @@
-import { Label, LabelLink, LabelText } from "../models";
+import { Label, LabelObject, LabelText } from "../models";
 
 const textLabelFrom = (text: string): LabelText => {
     return {
@@ -7,7 +7,7 @@ const textLabelFrom = (text: string): LabelText => {
     }
 }
 
-export const normalizeLabel = (label: Label): Array<LabelLink | LabelText> => {
+export const normalizeLabel = (label: Label): Array<LabelObject> => {
     if ( Array.isArray(label) ) {
         return label.flatMap(normalizeLabel)
     } else if ( typeof label === 'string' ) {

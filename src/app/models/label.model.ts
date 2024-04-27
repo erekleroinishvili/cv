@@ -9,6 +9,8 @@ export interface LabelText extends Omit<Partial<LabelLink>, 'type'> {
     label: string
 }
 
+export type LabelObject = LabelLink | LabelText
+
 export type Label =
-    (string | LabelLink | LabelText) |
-    (string | LabelLink | LabelText)[]
+    (string | LabelObject) |
+    (string | LabelObject)[]

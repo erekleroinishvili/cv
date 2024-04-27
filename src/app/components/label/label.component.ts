@@ -1,5 +1,5 @@
 import { Component, input } from '@angular/core';
-import type { Label, LabelLink, LabelText } from '../../models';
+import type { Label, LabelObject } from '../../models';
 import { normalizeLabel } from '../../utils/label.utils';
 
 @Component({
@@ -11,6 +11,6 @@ import { normalizeLabel } from '../../utils/label.utils';
 })
 export class LabelComponent {
 
-  label = input.required<(LabelLink | LabelText)[], Label>({transform: normalizeLabel})
+  label = input.required<(LabelObject)[], Label>({transform: normalizeLabel})
 
 }

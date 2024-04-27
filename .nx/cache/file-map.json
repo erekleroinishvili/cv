@@ -203,7 +203,7 @@
       },
       {
         "file": "src/app/components/label/label.component.ts",
-        "hash": "449202205956697736"
+        "hash": "5355145953831071697"
       },
       {
         "file": "src/app/components/range/range.component.html",
@@ -219,7 +219,7 @@
       },
       {
         "file": "src/app/events.json",
-        "hash": "12222612524867151923"
+        "hash": "7155184197502222170"
       },
       {
         "file": "src/app/json-schemas/event.schema.json",
@@ -251,7 +251,7 @@
       },
       {
         "file": "src/app/models/label.model.ts",
-        "hash": "2455560644084315970"
+        "hash": "1321627744430316906"
       },
       {
         "file": "src/app/pipes/label-string.pipe.ts",
@@ -295,7 +295,7 @@
       },
       {
         "file": "src/app/utils/label.utils.ts",
-        "hash": "16929020007055798853"
+        "hash": "15749632049276275188"
       },
       {
         "file": "src/app/utils/string.ts",
