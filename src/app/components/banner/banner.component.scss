@@ -1,0 +1,30 @@
+.content-wrapper {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.content-wrapper {
+    background-color: rgba(255, 255, 255, .7);
+    display: grid;
+    place-content: center;
+    grid-template-columns: minmax(0, max-content);
+}
+
+.content {
+    position: relative;
+    max-width: 95vw;
+    max-height: 95vh;
+    box-sizing: border-box;
+    overflow: hidden;
+    box-shadow: 0 0 20px gray;
+}
+
+.close-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+}

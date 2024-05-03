@@ -1,0 +1,6 @@
+<div class="content-wrapper" [style.zIndex]="zIndex()" [style.display]="visible() ? null : 'none'">
+    <div class="content">
+        <ng-content></ng-content>
+        <button mat-mini-fab class="close-button" (click)="visible.set(false)"><mat-icon>close</mat-icon></button>
+    </div>
+</div>

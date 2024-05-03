@@ -1,0 +1,12 @@
+<span
+    class="link"
+    role="none"
+    (click)="visible=true"
+    (keypress.enter)="visible=true"
+>
+    <ng-content></ng-content>
+</span>
+
+<erekle-banner [zIndex]="50" [(visible)]="visible">
+    <img [src]="src()" [alt]="alt()" class="image">
+</erekle-banner>
