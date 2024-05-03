@@ -34,7 +34,7 @@
         {
             "icon": "hat.png",
             "label": "Schooling",
-            "expand": 2,
+            "expand": 4,
             "autoExpand": false,
             "events": [
                 {
@@ -69,6 +69,62 @@
                     ],
                     "start": 2016,
                     "end": 2023
+                },
+                {
+                    "label": "A Levels (A* A* A* A)",
+                    "autoExpand": false,
+                    "date": 2023,
+                    "events": [
+                        {
+                            "label": "A* in Mathematics"
+                        },
+                        {
+                            "label": "A* in Physics"
+                        },
+                        {
+                            "label": "A* in Further Mathematics"
+                        },
+                        {
+                            "label": "A in Economics"
+                        }
+                    ]
+                },
+                {
+                    "label": "GCSE 9 × A*",
+                    "date": 2021,
+                    "autoExpand": false,
+                    "events": [
+                        {
+                            "label": "9 (A*) in Mathematics"
+                        },
+                        {
+                            "label": "9 (A*) in Computer Science"
+                        },
+                        {
+                            "label": "9 (A*) in Physics"
+                        },
+                        {
+                            "label": "9 (A*) in Biology"
+                        },
+                        {
+                            "label": "9 (A*) in Chemistry"
+                        },
+                        {
+                            "label": "9 (A*) in English Literature"
+                        },
+                        {
+                            "label": "9 (A*) in English Language"
+                        },
+                        {
+                            "label": "9 (A*) in Geography"
+                        },
+                        {
+                            "label": "9 (A*) in French"
+                        },
+                        {
+                            "label": "9 (A*) in Latin"
+                        }
+                    ]
                 },
                 {
                     "label": [
