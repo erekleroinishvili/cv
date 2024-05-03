@@ -1,7 +1,13 @@
 @for (entry of label(); track entry) {
-    @if (entry.type === 'text') {
-        <span [innerHTML]="entry.label"></span>
-    } @else {
-        <a [href]="entry.url" [innerHTML]="entry.label"></a>
+    @switch (entry.type) {
+        @case ('text') {
+            <span [innerHTML]="entry.label"></span>
+        }
+        @case ('image') {
+            <erekle-image-link [src]="entry.url" [alt]="entry.alt ?? entry.label"><span [innerHTML]="entry.label"></span></erekle-image-link>
+        }
+        @default {
+            <a [href]="entry.url" [innerHTML]="entry.label"></a>
+        }
     }
 }

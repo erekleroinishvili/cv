@@ -286,8 +286,9 @@
                         {
                             "label": [
                                 {
+                                    "type": "image",
                                     "label": "First place",
-                                    "url": "https://home.mycloud.com/action/share/c646c71f-5644-4f5b-be55-356a798da484"
+                                    "url": "assets/images/diplomas/code-2023-Geo-Winter-1-place.jpg"
                                 },
                                 " (special guest status), Winter Olympiad in Informatics of Georgia"
                             ],
@@ -471,8 +472,9 @@
                     "icon": "1.png",
                     "label": [
                         {
+                            "type": "image",
                             "label": "1<sup>st</sup> place",
-                            "url": "https://home.mycloud.com/action/share/49663dd0-245e-4bc5-b999-fc5ef35427bd"
+                            "url": "assets/images/diplomas/maths-2020-Tournament-of-Towns-1-place.jpg"
                         },
                         ", Juniors, London entry to ",
                         {
@@ -536,8 +538,9 @@
                 {
                     "label": [
                         {
+                            "type": "image",
                             "label": "Certificate of Distinction",
-                            "url": "https://home.mycloud.com/action/share/fd643ce8-befb-471d-888c-1036f2d925ee"
+                            "url": "assets/images/diplomas/maths-2022-BMO-round-1-distinction.jpg"
                         },
                         ", British Mathematical Olympiad, Round 1, ",
                         {
@@ -553,7 +556,7 @@
                                 {
                                     "type": "text",
                                     "label": "Certificate of Distinction",
-                                    "url": "https://home.mycloud.com/action/share/fd643ce8-befb-471d-888c-1036f2d925ee"
+                                    "url": "assets/images/diplomas/maths-2022-BMO-round-1-distinction.jpg"
                                 }
                             ],
                             "date": 2023
@@ -561,8 +564,9 @@
                         {
                             "label": [
                                 {
+                                    "type": "image",
                                     "label": "Certificate of Distinction",
-                                    "url": "https://home.mycloud.com/action/share/fd643ce8-befb-471d-888c-1036f2d925ee"
+                                    "url": "assets/images/diplomas/maths-2022-BMO-round-1-distinction.jpg"
                                 }
                             ],
                             "date": 2022
@@ -572,8 +576,9 @@
                 {
                     "label": [
                         {
+                            "type": "image",
                             "label": "Certificate of Distinction",
-                            "url": "https://home.mycloud.com/action/share/44790859-db05-4599-b6c9-f039a301aac1"
+                            "url": "assets/images/diplomas/maths-2020-21-BMO-round-2-distinction.jpg"
                         },
                         ", British Mathematical Olympiad, Round 2, ",
                         {
@@ -581,7 +586,7 @@
                             "url": "https://ukmt.org.uk/"
                         }
                     ],
-                    "date": "2021, 2023",
+                    "date": "2020-21, 2023",
                     "autoExpand": false,
                     "events": [
                         {
@@ -589,7 +594,7 @@
                                 {
                                     "type": "text",
                                     "label": "Certificate of Distinction",
-                                    "url": "https://home.mycloud.com/action/share/44790859-db05-4599-b6c9-f039a301aac1"
+                                    "url": "assets/images/diplomas/maths-2020-21-BMO-round-2-distinction.jpg"
                                 }
                             ],
                             "date": 2023
@@ -597,19 +602,21 @@
                         {
                             "label": [
                                 {
+                                    "type": "image",
                                     "label": "Certificate of Distinction",
-                                    "url": "https://home.mycloud.com/action/share/44790859-db05-4599-b6c9-f039a301aac1"
+                                    "url": "assets/images/diplomas/maths-2020-21-BMO-round-2-distinction.jpg"
                                 }
                             ],
-                            "date": 2021
+                            "date": "2020-21"
                         }
                     ]
                 },
                 {
                     "label": [
                         {
+                            "type": "image",
                             "label": "Gold Certificate / Best in Year",
-                            "url": "https://home.mycloud.com/action/share/9f5c285d-d52c-43a9-addb-84d772c5b7e2"
+                            "url": "assets/images/diplomas/maths-2020-SMC-gold-certificate.jpg"
                         },
                         ", Senior Mathmatical Challenge, ",
                         {
@@ -641,8 +648,9 @@
                 {
                     "label": [
                         {
+                            "type": "image",
                             "label": "Second place",
-                            "url": "https://home.mycloud.com/action/share/d704522f-f270-4806-9cc1-3f55cca35309"
+                            "url": "assets/images/diplomas/maths-2019-Teams-2-place.jpg"
                         },
                         ", Regional Finals, ",
                         {
@@ -670,8 +678,9 @@
                 {
                     "label": [
                         {
+                            "type": "image",
                             "label": "Gold Certificate",
-                            "url": "https://home.mycloud.com/action/share/c6df9222-c591-44eb-9337-213e1938d083"
+                            "url": "assets/images/diplomas/maths-2019-IMC-gold-certificate.jpg"
                         },
                         ", Intermediate Mathematical Challenge, ",
                         {
@@ -684,8 +693,9 @@
                 {
                     "label": [
                         {
+                            "type": "image",
                             "label": "Gold Certificate",
-                            "url": "https://home.mycloud.com/action/share/e2254163-c6e4-4840-9a1c-2e52f73ec329"
+                            "url": "assets/images/diplomas/maths-2018-SMC-gold-certificate.jpg"
                         },
                         ", Senior Mathematical Challenge, ",
                         {
@@ -698,18 +708,21 @@
                 {
                     "label": [
                         {
+                            "type": "image",
                             "label": "Gold Certificate",
-                            "url": "https://home.mycloud.com/action/share/a2a0a952-2e1f-491f-8255-5ab55c22ca8a"
+                            "url": "assets/images/diplomas/maths-2018-JMC-gold-certificate.jpg"
                         },
                         " / ",
                         {
+                            "type": "image",
                             "label": "Best in School",
-                            "url": "https://home.mycloud.com/action/share/b50e8e82-2b36-4f00-b1c3-6a318e246c57"
+                            "url": "assets/images/diplomas/maths-2018-JMC-best-in-school.jpg"
                         },
                         " / ",
                         {
+                            "type": "image",
                             "label": "Best in Year",
-                            "url": "https://home.mycloud.com/action/share/e29bd6a3-a424-44b3-862c-2f34b08f0d0e"
+                            "url": "assets/images/diplomas/maths-2018-JMC-best-in-year.jpg"
                         },
                         ", Junior Mathematical Challenge, ",
                         {
@@ -727,10 +740,11 @@
                 {
                     "icon": "gold.png",
                     "label": [
-                        "Gold Medal and",
+                        "Gold Medal and ",
                         {
+                            "type": "image",
                             "label": "Gold Award Winner",
-                            "url": "https://home.mycloud.com/action/share/8c69660e-544c-441c-996c-6003d2a94292"
+                            "url": "assets/images/diplomas/maths-2015-PMC-gold-award.jpg"
                         },
                         ", Primary Mathematics Challenge"
                     ],
@@ -739,8 +753,9 @@
                 {
                     "label": [
                         {
+                            "type": "image",
                             "label": "Silver Certificate",
-                            "url": "https://home.mycloud.com/action/share/22faf3fe-4e04-4b77-b7fc-4c02d59747c8"
+                            "url": "assets/images/diplomas/maths-2015-JMC-silver-certificate.jpg"
                         },
                         ", UK Junior Mathematical Challenge, ",
                         {
@@ -753,8 +768,9 @@
                 {
                     "label": [
                         {
+                            "type": "image",
                             "label": "1<sup>st</sup> place",
-                            "url": "https://home.mycloud.com/action/share/939d6a97-1387-4eda-8170-f1374bed076f"
+                            "url": "assets/images/diplomas/maths-2013-kings-1-place.jpg"
                         },
                         ", Autumn-Winter Olympiad in Mathematics, country of Georgia"
                     ],
@@ -763,8 +779,9 @@
                 {
                     "label": [
                         {
+                            "type": "image",
                             "label": "2<sup>nd</sup> place",
-                            "url": "https://home.mycloud.com/action/share/fc907369-1869-42a3-ac6e-3c51c7566b9e"
+                            "url": "assets/images/diplomas/maths-2013-kings-2-place.jpg"
                         },
                         ", King’s Olympiad in Mathematics, ",
                         {

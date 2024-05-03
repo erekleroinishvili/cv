@@ -20,9 +20,9 @@
                         "required": ["label"],
                         "properties": {
                             "type": {
-                                "enum": ["link", "text"],
-                                "default": "text",
-                                "description": "Whether the segment should be displayed as plain text or as a link (default)."
+                                "enum": ["link", "text", "image"],
+                                "default": "image",
+                                "description": "Whether the segment should be displayed as plain text, image link or link (default)."
                             },
                             "label": {
                                 "type": "string",
@@ -31,6 +31,10 @@
                             "url": {
                                 "type": "string",
                                 "description": "Target URL where the link should point"
+                            },
+                            "alt": {
+                                "type": "string",
+                                "description": "Alternative text for the imagge"
                             }
                         }
                     }
