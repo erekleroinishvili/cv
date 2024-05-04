@@ -19,12 +19,20 @@
     max-width: 95vw;
     max-height: 95vh;
     box-sizing: border-box;
-    overflow: hidden;
     box-shadow: 0 0 20px gray;
+    min-width: 100px;
+    min-height: 100px;
+    display: grid;
+    grid-template-columns: minmax(0, max-content);
+    grid-template-rows: minmax(0, max-content);
+    place-content: center;
+    background-color: white;
+    // overflow: hidden;
+    // padding-block-start: 48px;
 }
 
 .close-button {
     position: absolute;
-    top: 0;
-    right: 0;
+    top: -16px;
+    right: -16px;
 }
