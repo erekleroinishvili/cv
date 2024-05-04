@@ -4,6 +4,27 @@
 
     "events": [
         {
+            "hidden": true,
+            "label": [
+                "TEST: ",
+                {
+                    "type": "image",
+                    "label": "1<sup>st</sup> place",
+                    "url": "assets/images/diplomas/maths-2020-Tournament-of-Towns-1-place.jpg"
+                },
+                ", Juniors, London entry to ",
+                {
+                    "label": "Tournament of Towns International Mathematical Olympiad",
+                    "url": "https://www.turgor.ru/en/"
+                }
+            ],
+            "events": [
+                {
+                    "label": "x"
+                }
+            ]
+        },
+        {
             "label": "Passion for mathematics and computer science joint with interest in philosophy, economics, politics and leadership."
         },
         {

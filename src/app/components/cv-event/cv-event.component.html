@@ -1,6 +1,6 @@
-<div class="event-header" [class.expanded]="expanded() && event().events?.length" [style.--level]="level()">
+<div class="event-header" [class.expanded]="expanded() && event().events?.length" [style.--level]="level()" (click)="toggle()" role="none">
 
-    <erekle-bullet [bullet]="bullet()" (action)="userExpanded.set($event)" />
+    <erekle-bullet [bullet]="bullet()" />
 
     <div>
         @if (event().icon) {

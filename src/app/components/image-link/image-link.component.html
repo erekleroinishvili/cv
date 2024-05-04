@@ -2,12 +2,12 @@
     class="link"
     role="none"
     [title]="title()"
-    (click)="visible=true"
-    (keypress.enter)="visible=true"
+    (click)="$event.stopImmediatePropagation(); visible=true"
+    (keypress.enter)="$event.stopImmediatePropagation(); visible=true"
 >
     <ng-content></ng-content>
 </span>
 
-<erekle-banner [zIndex]="50" [(visible)]="visible">
+<erekle-banner [zIndex]="50" [(visible)]="visible" (click)="$event.stopImmediatePropagation()">
     <img [src]="src()" [alt]="alt()" class="image">
 </erekle-banner>

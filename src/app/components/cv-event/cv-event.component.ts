@@ -87,4 +87,12 @@ export class CvEventComponent {
     return this.event().events?.slice(this.minEvents()?.length)
   })
 
+  protected toggle() {
+    if ( this.event().events?.length ) {
+      const collapsedByUser = this.userExpanded() === 'collapsed'
+      const collapsedByDefault = this.userExpanded() === 'initial' && this.event().autoExpand === false
+      this.userExpanded.set(collapsedByUser || collapsedByDefault ? 'expanded' : 'collapsed')
+    }
+  }
+
 }
