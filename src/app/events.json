@@ -1,6 +1,6 @@
 {
-    "$schema": "https://raw.githubusercontent.com/erekleroinishvili/cv/main/src/app/json-schemas/events.schema.json",
-    "$schema-local": "./json-schemas/events.schema.json",
+    "$schema-local": "https://raw.githubusercontent.com/erekleroinishvili/cv/main/src/app/json-schemas/events.schema.json",
+    "$schema": "./json-schemas/events.schema.json",
 
     "events": [
         {
@@ -295,6 +295,7 @@
         {
             "icon": "coding.png",
             "label": "Coding Competitions",
+            "countShown": true,
             "autoExpand": false,
             "events": [
                 {
@@ -388,6 +389,7 @@
                 {
                     "icon": "coding.png",
                     "label": "Other Coding Competitions",
+                    "countShown": true,
                     "autoExpand": false,
                     "events": [
                         {
@@ -458,6 +460,7 @@
                                 }
                             ],
                             "date": 2023,
+                            "countThrough": false,
                             "events": [
                                 {
                                     "label": "Organized UK’s participation, contacted organizers, arranged logistics"
@@ -480,6 +483,7 @@
                                 ")"
                             ],
                             "date": "Nov 2022",
+                            "countThrough": false,
                             "events": [
                                 {
                                     "label": "Organized UK’s participation, contacted organizers, arranged logistics"
@@ -590,6 +594,7 @@
         {
             "icon": "maths.png",
             "label": "Mathematics Competitions",
+            "countShown": true,
             "autoExpand": false,
             "events": [
                 {
@@ -954,75 +959,6 @@
             ]
         },
         {
-            "icon": "basketball.png",
-            "label": "Other Interests",
-            "autoExpand": false,
-            "expand": 5,
-            "events": [
-                {
-                    "icon": "youtube.png",
-                    "label": [
-                        "Youtube channel ",
-                        {
-                            "label": "@erekleroinishvili2340",
-                            "url": "https://www.youtube.com/@erekleroinishvili2340"
-                        },
-                        " discussing mathematics and programming, including solutions to British Informatics Olympiad (BIO)"
-                    ],
-                    "start": 2015
-                },
-                {
-                    "icon": "youtube.png",
-                    "label": [
-                        "Created a",
-                        {
-                            "label": "video on Agile Management",
-                            "url": "https://www.youtube.com/watch?v=lpgqcttFeOg"
-                        },
-                        " and won competition at Roche Pharmaceuticals family competition and received tickets to the ",
-                        {
-                            "label": "Royal Institution Christmas Lectures on mathematics with Hannah Fry",
-                            "url": "https://youtu.be/TtisQ9yZ2zo?t=352"
-                        }
-                    ],
-                    "start": 2019
-                },
-                {
-                    "icon": "airplane.png",
-                    "label": "Flying radio-controlled aircraft"
-                },
-                {
-                    "icon": "cube.png",
-                    "label": "Rubik’s Cube Speed cubing, average time under 20 seconds"
-                },
-                {
-                    "icon": "rowing.png",
-                    "label": "Rowing, University of Cambridge",
-                    "date": 2024
-                },
-                {
-                    "icon": "football.jpg",
-                    "label": "Football"
-                },
-                {
-                    "icon": "basketball.png",
-                    "label": "Basketball"
-                },
-                {
-                    "icon": "chess.png",
-                    "label": "Chess"
-                },
-                {
-                    "icon": "violin.png",
-                    "label": "Violin"
-                },
-                {
-                    "icon": "guitar.png",
-                    "label": "Guitar"
-                }
-            ]
-        },
-        {
             "icon": "various.png",
             "label": "Miscellaneous",
             "autoExpand": false,
@@ -1082,6 +1018,75 @@
                                 }
                             ],
                             "date": 2019
+                        }
+                    ]
+                },
+                {
+                    "icon": "basketball.png",
+                    "label": "Other Interests",
+                    "autoExpand": false,
+                    "expand": 5,
+                    "events": [
+                        {
+                            "icon": "youtube.png",
+                            "label": [
+                                "Youtube channel ",
+                                {
+                                    "label": "@erekleroinishvili2340",
+                                    "url": "https://www.youtube.com/@erekleroinishvili2340"
+                                },
+                                " discussing mathematics and programming, including solutions to British Informatics Olympiad (BIO)"
+                            ],
+                            "start": 2015
+                        },
+                        {
+                            "icon": "youtube.png",
+                            "label": [
+                                "Created a",
+                                {
+                                    "label": "video on Agile Management",
+                                    "url": "https://www.youtube.com/watch?v=lpgqcttFeOg"
+                                },
+                                " and won competition at Roche Pharmaceuticals family competition and received tickets to the ",
+                                {
+                                    "label": "Royal Institution Christmas Lectures on mathematics with Hannah Fry",
+                                    "url": "https://youtu.be/TtisQ9yZ2zo?t=352"
+                                }
+                            ],
+                            "start": 2019
+                        },
+                        {
+                            "icon": "airplane.png",
+                            "label": "Flying radio-controlled aircraft"
+                        },
+                        {
+                            "icon": "cube.png",
+                            "label": "Rubik’s Cube Speed cubing, average time under 20 seconds"
+                        },
+                        {
+                            "icon": "rowing.png",
+                            "label": "Rowing, University of Cambridge",
+                            "date": 2024
+                        },
+                        {
+                            "icon": "football.jpg",
+                            "label": "Football"
+                        },
+                        {
+                            "icon": "basketball.png",
+                            "label": "Basketball"
+                        },
+                        {
+                            "icon": "chess.png",
+                            "label": "Chess"
+                        },
+                        {
+                            "icon": "violin.png",
+                            "label": "Violin"
+                        },
+                        {
+                            "icon": "guitar.png",
+                            "label": "Guitar"
                         }
                     ]
                 }

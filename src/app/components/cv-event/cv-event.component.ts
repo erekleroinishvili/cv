@@ -9,6 +9,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { RangeComponent } from '../range/range.component';
 import { animate, state, style, transition, trigger } from '@angular/animations';
+import { CvEventCountComponent } from '../cv-event-count/cv-event-count.component';
 
 type UserExpandStatus = 'initial' | 'collapsed' | 'expanded' | 'expanded-more'
 
@@ -24,6 +25,7 @@ type UserExpandStatus = 'initial' | 'collapsed' | 'expanded' | 'expanded-more'
     MatButtonModule,
     MatIconModule,
     RangeComponent,
+    CvEventCountComponent,
   ],
   templateUrl: './cv-event.component.html',
   styleUrl: './cv-event.component.scss',

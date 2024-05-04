@@ -8,7 +8,11 @@
         }
     </div>
 
-    <erekle-label [label]="event().label" />
+    <div>
+        <erekle-label [label]="event().label" />
+        <erekle-cv-event-count [event]="event()" class="event-count" />
+    </div>
+
     <erekle-range [event]="event()" />
 </div>
 

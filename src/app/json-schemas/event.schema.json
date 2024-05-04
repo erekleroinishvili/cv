@@ -47,6 +47,26 @@
             "items": {
                 "$ref": "#"
             }
+        },
+        "countShown": {
+            "type": "boolean",
+            "description": "If this event should display number of child events. Default is false",
+            "default": true
+        },
+        "countDepth": {
+            "enum": ["shallow", "deep"],
+            "description": "If child event count should be shallow (top-level children only) or deep (leafs only). Default is \"deep\"",
+            "default": "shallow"
+        },
+        "countable": {
+            "type": "boolean",
+            "description": "If this event should contribute to parents count of child events. Default is true",
+            "default": false
+        },
+        "countThrough": {
+            "type": "boolean",
+            "description": "When contributing to parent count, should its children be counted. Default is true",
+            "default": false
         }
     }
 }

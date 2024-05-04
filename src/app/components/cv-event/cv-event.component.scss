@@ -22,4 +22,9 @@
     &.expanded {
         border-block-end-color: lightgray;
     }
+
+    .event-count:not(:empty) {
+        display: inline-block;
+        margin-inline-start: 8px;
+    }
 }
