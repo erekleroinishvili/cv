@@ -147,34 +147,114 @@
                     "autoExpand": false,
                     "events": [
                         {
-                            "label": "9 (A*) in Mathematics"
+                            "label": [
+                                {
+                                    "type": "image",
+                                    "label": "9 (A*)",
+                                    "alt": "GCSE Certificate in Biology, Chemistry, Mathematics and Physics",
+                                    "url": "assets/images/diplomas/GCSE-Biology-Chemistyr-Maths-Physics.jpg"
+                                },
+                                " in Mathematics"
+                            ]
                         },
                         {
-                            "label": "9 (A*) in Computer Science"
+                            "label": [
+                                {
+                                    "type": "image",
+                                    "label": "9 (A*)",
+                                    "alt": "GCSE Certificate in Computer Science, French and Geography",
+                                    "url": "assets/images/diplomas/GCSE-CS-French-Geography.jpg"
+                                },
+                                " in Computer Science"
+                            ]
                         },
                         {
-                            "label": "9 (A*) in Physics"
+                            "label": [
+                                {
+                                    "type": "image",
+                                    "label": "9 (A*)",
+                                    "alt": "GCSE Certificate in Biology, Chemistry, Mathematics and Physics",
+                                    "url": "assets/images/diplomas/GCSE-Biology-Chemistyr-Maths-Physics.jpg"
+                                },
+                                " in Physics"
+                            ]
                         },
                         {
-                            "label": "9 (A*) in Biology"
+                            "label": [
+                                {
+                                    "type": "image",
+                                    "label": "9 (A*)",
+                                    "alt": "GCSE Certificate in Biology, Chemistry, Mathematics and Physics",
+                                    "url": "assets/images/diplomas/GCSE-Biology-Chemistyr-Maths-Physics.jpg"
+                                },
+                                " in Biology"
+                            ]
                         },
                         {
-                            "label": "9 (A*) in Chemistry"
+                            "label": [
+                                {
+                                    "type": "image",
+                                    "label": "9 (A*)",
+                                    "alt": "GCSE Certificate in Biology, Chemistry, Mathematics and Physics",
+                                    "url": "assets/images/diplomas/GCSE-Biology-Chemistyr-Maths-Physics.jpg"
+                                },
+                                " in Chemistry"
+                            ]
                         },
                         {
-                            "label": "9 (A*) in English Literature"
+                            "label": [
+                                {
+                                    "type": "image",
+                                    "label": "9 (A*)",
+                                    "alt": "GCSE Certificate in English Language and Literature",
+                                    "url": "assets/images/diplomas/GCSE-English-Language-Literature.jpg"
+                                },
+                                " in English Literature"
+                            ]
                         },
                         {
-                            "label": "9 (A*) in English Language"
+                            "label": [
+                                {
+                                    "type": "image",
+                                    "label": "9 (A*)",
+                                    "alt": "GCSE Certificate in English Language and Literature",
+                                    "url": "assets/images/diplomas/GCSE-English-Language-Literature.jpg"
+                                },
+                                " in English Language"
+                            ]
                         },
                         {
-                            "label": "9 (A*) in Geography"
+                            "label": [
+                                {
+                                    "type": "image",
+                                    "label": "9 (A*)",
+                                    "alt": "GCSE Certificate in Computer Science, French and Geography",
+                                    "url": "assets/images/diplomas/GCSE-CS-French-Geography.jpg"
+                                },
+                                " in English Geography"
+                            ]
                         },
                         {
-                            "label": "9 (A*) in French"
+                            "label": [
+                                {
+                                    "type": "image",
+                                    "label": "9 (A*)",
+                                    "alt": "GCSE Certificate in Computer Science, French and Geography",
+                                    "url": "assets/images/diplomas/GCSE-CS-French-Geography.jpg"
+                                },
+                                " in English French"
+                            ]
                         },
                         {
-                            "label": "9 (A*) in Latin"
+                            "label": [
+                                {
+                                    "type": "image",
+                                    "label": "9 (A*)",
+                                    "alt": "GCSE Certificate in Latin",
+                                    "url": "assets/images/diplomas/GCSE-Latin.jpg"
+                                },
+                                " in English Latin"
+                            ]
                         }
                     ]
                 }
