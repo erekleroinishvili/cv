@@ -117,7 +117,7 @@
         },
         {
             "label": "A-Levels & GCSEs",
-            "icon": "test-result.jpg",
+            "icon": "test-result.png",
             "autoExpand": false,
             "events": [
                 {
