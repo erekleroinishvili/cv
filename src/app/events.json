@@ -34,7 +34,7 @@
         {
             "icon": "hat.png",
             "label": "Schooling",
-            "expand": 4,
+            "expand": 2,
             "autoExpand": false,
             "events": [
                 {
@@ -71,8 +71,38 @@
                     "end": 2023
                 },
                 {
+                    "label": [
+                        {
+                            "label": "Cunningham Hill Junior School",
+                            "url": "https://cunninghamhill.herts.sch.uk/"
+                        },
+                        ", St Albans, United Kingdom"
+                    ],
+                    "start": 2015,
+                    "end": 2016
+                },
+                {
+                    "label": [
+                        {
+                            "label": "New School",
+                            "url": "https://newschoolgeorgia.com/"
+                        },
+                        ", English-language program. Tbilisi, Georgia"
+                    ],
+                    "start": 2010,
+                    "end": 2015
+                }
+            ]
+        },
+        {
+            "label": "A-Levels & GCSEs",
+            "icon": "test-result.jpg",
+            "autoExpand": false,
+            "events": [
+                {
                     "label": "A Levels (A* A* A* A)",
-                    "autoExpand": false,
+                    "icon": "A-Levels.jpg",
+                    "autoExpand": true,
                     "date": 2023,
                     "events": [
                         {
@@ -91,6 +121,7 @@
                 },
                 {
                     "label": "GCSE 9 × A*",
+                    "icon": "GCSEs.jpg",
                     "date": 2021,
                     "autoExpand": false,
                     "events": [
@@ -125,28 +156,6 @@
                             "label": "9 (A*) in Latin"
                         }
                     ]
-                },
-                {
-                    "label": [
-                        {
-                            "label": "Cunningham Hill Junior School",
-                            "url": "https://cunninghamhill.herts.sch.uk/"
-                        },
-                        ", St Albans, United Kingdom"
-                    ],
-                    "start": 2015,
-                    "end": 2016
-                },
-                {
-                    "label": [
-                        {
-                            "label": "New School",
-                            "url": "https://newschoolgeorgia.com/"
-                        },
-                        ", English-language program. Tbilisi, Georgia"
-                    ],
-                    "start": 2010,
-                    "end": 2015
                 }
             ]
         },
