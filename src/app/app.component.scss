@@ -4,3 +4,9 @@
     padding-inline: 16px;
     max-width: var(--page-max-width, 1080px);
 }
+
+.social-media {
+    display: grid;
+    justify-content: center;
+    margin-block: 16px 32px;
+}

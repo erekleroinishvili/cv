@@ -65,7 +65,9 @@
                 "src/app/stylings"
               ]
             },
-            "scripts": [],
+            "scripts": [
+              "src/addtoany.js"
+            ],
             "server": "src/main.server.ts",
             "prerender": false,
             "ssr": false
