@@ -7,7 +7,7 @@
             <erekle-image-link [src]="entry.url" [alt]="entry.alt ?? entry.label"><span [innerHTML]="entry.label"></span></erekle-image-link>
         }
         @default {
-            <a [href]="entry.url" [innerHTML]="entry.label"></a>
+            <a [href]="entry.url" [innerHTML]="entry.label" [title]="'External link: ' + entry.label"></a>
         }
     }
 }
