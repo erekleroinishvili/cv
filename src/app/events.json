@@ -127,16 +127,48 @@
                     "date": 2023,
                     "events": [
                         {
-                            "label": "A* in Mathematics"
+                            "label": [
+                                {
+                                    "type": "image",
+                                    "label": "A*",
+                                    "alt": "A-Level Certificate in Mathematics and Further Mathematics",
+                                    "url": "assets/images/diplomas/A-Level-Maths-Further-Maths.jpg"
+                                },
+                                " in Mathematics"
+                            ]
                         },
                         {
-                            "label": "A* in Physics"
+                            "label": [
+                                {
+                                    "type": "image",
+                                    "label": "A*",
+                                    "alt": "A-Level Certificate in Mathematics and Further Mathematics",
+                                    "url": "assets/images/diplomas/A-Level-Maths-Further-Maths.jpg"
+                                },
+                                " in Further Mathematics"
+                            ]
                         },
                         {
-                            "label": "A* in Further Mathematics"
+                            "label": [
+                                {
+                                    "type": "image",
+                                    "label": "A*",
+                                    "alt": "A-Level Certificate in Physics",
+                                    "url": "assets/images/diplomas/A-Level-Physics.jpg"
+                                },
+                                " in Physics"
+                            ]
                         },
                         {
-                            "label": "A in Economics"
+                            "label": [
+                                {
+                                    "type": "image",
+                                    "label": "A",
+                                    "alt": "A-Level Certificate in Economics",
+                                    "url": "assets/images/diplomas/A-Level-Economics.jpg"
+                                },
+                                " in Economics"
+                            ]
                         }
                     ]
                 },
