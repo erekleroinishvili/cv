@@ -214,7 +214,7 @@
                                 }
                             ],
                             "start": "Aug",
-                            "end": "Sep 2023"
+                            "end": 2023
                         },
                         {
                             "icon": "silver.png",
@@ -229,8 +229,7 @@
                                     "url": "https://ioi2022.id/"
                                 }
                             ],
-                            "start": "Aug",
-                            "end": "Sep 2023"
+                            "date": 2022
                         },
                         {
                             "icon": "bronze.png",
@@ -245,8 +244,7 @@
                                     "url": "https://ioi2021.sg/"
                                 }
                             ],
-                            "start": "Aug",
-                            "end": "Sep 2023"
+                            "date": 2021
                         }
                     ]
                 },
