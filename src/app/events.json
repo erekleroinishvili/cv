@@ -53,7 +53,7 @@
             ]
         },
         {
-            "icon": "hat.png",
+            "icon": "education.png",
             "label": "Schooling",
             "expand": 2,
             "autoExpand": false,
@@ -965,7 +965,7 @@
             "expand": 3,
             "events": [
                 {
-                    "icon": "hat.png",
+                    "icon": "education.png",
                     "label": [
                         "Awards and Participation at ",
                         {
@@ -1081,12 +1081,8 @@
                             "label": "Chess"
                         },
                         {
-                            "icon": "violin.png",
-                            "label": "Violin"
-                        },
-                        {
-                            "icon": "guitar.png",
-                            "label": "Guitar"
+                            "icon": "music.png",
+                            "label": "Violin, Piano, Guitar"
                         }
                     ]
                 }
