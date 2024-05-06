@@ -1028,12 +1028,12 @@
         {
             "icon": "trading.png",
             "label": "Investing Experience",
-            "hidden": true,
+            "hidden": false,
             "autoExpand": false,
             "events": [
                 {
                     "label": [
-                        "Manage a small portforlio on online trading platform ",
+                        "Manage a small portforlio on an online trading platform ",
                         {
                             "label": "Trading 212",
                             "url": "https://www.trading212.com/"
