@@ -107,6 +107,9 @@
                             "label": "OCaml"
                         },
                         {
+                            "label": "Python"
+                        },
+                        {
                             "label": "SQL"
                         },
                         {
@@ -1019,6 +1022,24 @@
                 {
                     "label": "Winner of Regional, UK Space Design Competition",
                     "date": 2021
+                }
+            ]
+        },
+        {
+            "icon": "trading.png",
+            "label": "Investing Experience",
+            "hidden": true,
+            "autoExpand": false,
+            "events": [
+                {
+                    "label": [
+                        "Manage a small portforlio on online trading platform ",
+                        {
+                            "label": "Trading 212",
+                            "url": "https://www.trading212.com/"
+                        }
+
+                    ]
                 }
             ]
         },
