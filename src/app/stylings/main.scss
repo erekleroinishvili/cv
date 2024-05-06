@@ -10,6 +10,9 @@ body {
     font-family: $font-main;
 }
 
+a, a:visited, a:hover {
+    color: unset;
+}
 
 // Angular Material
 // html, body {
