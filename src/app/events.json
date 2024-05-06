@@ -42,7 +42,7 @@
                     ]
                 },
                 {
-                    "icon": "linkedin-32.png",
+                    "icon": "linkedin-gray.png",
                     "label": [
                         {
                             "label": "erekle-roi",
@@ -54,12 +54,11 @@
         },
         {
             "icon": "education.png",
-            "label": "Schooling",
+            "label": "Education",
             "expand": 2,
             "autoExpand": false,
             "events": [
                 {
-                    "icon": "cambridge-uni.png",
                     "label": [
                         "Student at ",
                         {
@@ -80,7 +79,6 @@
                     "start": 2023
                 },
                 {
-                    "icon": "habs.jpg",
                     "label": [
                         {
                             "label": "Haberdashers' Boys' School",
@@ -122,7 +120,6 @@
             "events": [
                 {
                     "label": "A Levels (A* A* A* A)",
-                    "icon": "A-Levels.jpg",
                     "autoExpand": true,
                     "date": 2023,
                     "events": [
@@ -174,7 +171,6 @@
                 },
                 {
                     "label": "GCSE (10 × A*)",
-                    "icon": "GCSEs.jpg",
                     "date": 2021,
                     "autoExpand": false,
                     "events": [
@@ -299,7 +295,7 @@
             "autoExpand": false,
             "events": [
                 {
-                    "icon": "ioi-32.png",
+                    "icon": "ioi-gray.png",
                     "label": [
                         {
                             "label": "Participation",
@@ -1022,7 +1018,7 @@
                     ]
                 },
                 {
-                    "icon": "basketball.png",
+                    "icon": "various.png",
                     "label": "Other Interests",
                     "autoExpand": false,
                     "expand": 5,
