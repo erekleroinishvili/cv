@@ -364,6 +364,7 @@
             "label": "Coding Competitions",
             "countShown": true,
             "autoExpand": false,
+            "expand": 2,
             "events": [
                 {
                     "icon": "ioi-gray.png",
