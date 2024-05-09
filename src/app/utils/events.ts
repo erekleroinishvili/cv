@@ -15,6 +15,9 @@ export function removeHiddenEvents(events: CvEvent[]): CvEvent[] {
         })
 }
 
+/** For a given single event, returns the value to display for its event count.
+ * Will return null if supplied event has `countShown` set to `false`.
+ */
 export function countEvents(event: CvEvent) {
     if (event.countShown === true) {
         if (!event.events?.length) {
@@ -31,6 +34,7 @@ export function countEvents(event: CvEvent) {
     }
 }
 
+/** Returns number of events a given event will contribute to its parent's event count */
 export function eventCountContribution(event: CvEvent): number {
     if (event.countThrough === false || !event.events?.length) {
         return event.countable === false ? 0 : 1
@@ -38,4 +42,9 @@ export function eventCountContribution(event: CvEvent): number {
     return event.events.reduce((sum, child) => {
         return sum + eventCountContribution(child)
     }, 0)
+}
+
+/** Returns total number of events in an array of events, including their children */
+export function eventCountContributionSum(events: CvEvent[]): number {
+    return events.reduce((sum, event) => sum + eventCountContribution(event), 0)
 }

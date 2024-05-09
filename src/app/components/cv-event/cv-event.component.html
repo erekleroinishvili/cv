@@ -24,7 +24,7 @@
     @if ( showMoreButton() ) {
         <button mat-raised-button @retire color="primary" (click)="userExpanded.set('expanded-more')">
             <mat-icon>double_arrow</mat-icon>
-            Show {{ moreEvents()!.length }} more
+            Show {{ moreEventCount() }} more
         </button>
     }
 </erekle-accordion>

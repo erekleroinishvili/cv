@@ -10,6 +10,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { RangeComponent } from '../range/range.component';
 import { animate, state, style, transition, trigger } from '@angular/animations';
 import { CvEventCountComponent } from '../cv-event-count/cv-event-count.component';
+import { eventCountContributionSum } from '../../utils/events';
 
 type UserExpandStatus = 'initial' | 'collapsed' | 'expanded' | 'expanded-more'
 
@@ -88,6 +89,8 @@ export class CvEventComponent {
   protected readonly moreEvents = computed(() => {
     return this.event().events?.slice(this.minEvents()?.length)
   })
+
+  protected readonly moreEventCount = computed(() => eventCountContributionSum(this.moreEvents() ?? []))
 
   protected toggle() {
     if ( this.event().events?.length ) {
