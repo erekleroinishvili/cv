@@ -10,8 +10,8 @@ import { Component, HostBinding, input } from '@angular/core';
 export class ProgressComponent {
 
   percentage = input.required<number>()
-  fgcolor = input('darkgray')
-  bgcolor = input('lightgray')
+  fgcolor = input('var(--color-basic, darkgray)')
+  bgcolor = input('var(--color-disabled, lightgrey)')
   tooltip = input<string>()
 
   @HostBinding('style.background-color')
