@@ -92,7 +92,7 @@
                                     "percent": 100
                                 },
                                 " ",
-                                "English — Native"
+                                "English (Native)"
                             ]
                         },
                         {
@@ -103,18 +103,18 @@
                                     "percent": 100
                                 },
                                 " ",
-                                "Georgian — Native"
+                                "Georgian (Native)"
                             ]
                         },
                         {
                             "label": [
                                 {
                                     "type": "progress",
-                                    "label": "Native",
+                                    "label": "Advanced",
                                     "percent": 70
                                 },
                                 " ",
-                                "Russian — Advanced"
+                                "Russian"
                             ]
                         },
                         {
