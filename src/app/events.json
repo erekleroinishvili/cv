@@ -85,19 +85,59 @@
                     "autoExpand": false,
                     "events": [
                         {
-                            "label": "English — Native"
+                            "label": [
+                                {
+                                    "type": "progress",
+                                    "label": "Native",
+                                    "percent": 100
+                                },
+                                " ",
+                                "English — Native"
+                            ]
                         },
                         {
-                            "label": "Georgian — Fluent"
+                            "label": [
+                                {
+                                    "type": "progress",
+                                    "label": "Native",
+                                    "percent": 100
+                                },
+                                " ",
+                                "Georgian — Native"
+                            ]
                         },
                         {
-                            "label": "Russian — Advanced"
+                            "label": [
+                                {
+                                    "type": "progress",
+                                    "label": "Native",
+                                    "percent": 70
+                                },
+                                " ",
+                                "Russian — Advanced"
+                            ]
                         },
                         {
-                            "label": "French"
+                            "label": [
+                                {
+                                    "type": "progress",
+                                    "label": "Intermediate",
+                                    "percent": 40
+                                },
+                                " ",
+                                "French"
+                            ]
                         },
                         {
-                            "label": "Latin"
+                            "label": [
+                                {
+                                    "type": "progress",
+                                    "label": "Basic",
+                                    "percent": 30
+                                },
+                                " ",
+                                "Latin"
+                            ]
                         }
                     ]
                 },
@@ -107,22 +147,70 @@
                     "autoExpand": false,
                     "events": [
                         {
-                            "label": "C++"
+                            "label": [
+                                {
+                                    "type": "progress",
+                                    "label": "Advanced",
+                                    "percent": 90
+                                },
+                                " ",
+                                "C++"
+                            ]
                         },
                         {
-                            "label": "OCaml"
+                            "label": [
+                                {
+                                    "type": "progress",
+                                    "label": "Intermediate",
+                                    "percent": 60
+                                },
+                                " ",
+                                "OCaml"
+                            ]
                         },
                         {
-                            "label": "Python"
+                            "label": [
+                                {
+                                    "type": "progress",
+                                    "label": "Intermediate",
+                                    "percent": 70
+                                },
+                                " ",
+                                "Python"
+                            ]
                         },
                         {
-                            "label": "SQL"
+                            "label": [
+                                {
+                                    "type": "progress",
+                                    "label": "Intermediate",
+                                    "percent": 50
+                                },
+                                " ",
+                                "SQL"
+                            ]
                         },
                         {
-                            "label": "JavaScript"
+                            "label": [
+                                {
+                                    "type": "progress",
+                                    "label": "Advanced",
+                                    "percent": 80
+                                },
+                                " ",
+                                "JavaScript"
+                            ]
                         },
                         {
-                            "label": "HTML"
+                            "label": [
+                                {
+                                    "type": "progress",
+                                    "label": "Intermediate",
+                                    "percent": 70
+                                },
+                                " ",
+                                "HTML"
+                            ]
                         }
                     ]
                 }

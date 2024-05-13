@@ -6,6 +6,9 @@
         @case ('image') {
             <erekle-image-link [src]="entry.url" [alt]="entry.alt ?? entry.label"><span [innerHTML]="entry.label"></span></erekle-image-link>
         }
+        @case ('progress') {
+            <erekle-progress [percentage]="entry.percent" [tooltip]="entry.label" />
+        }
         @default {
             <a [href]="entry.url" [innerHTML]="entry.label" [title]="'External link: ' + entry.label" (click)="$event.stopPropagation()"></a>
         }
