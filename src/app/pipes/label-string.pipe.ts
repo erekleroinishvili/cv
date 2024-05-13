@@ -1,6 +1,6 @@
 import { Pipe, PipeTransform } from '@angular/core';
 import { Label } from '../models';
-import { normalizeLabel } from '../utils/label.utils';
+import { labelToString } from '../utils/label.utils';
 
 @Pipe({
   name: 'labelString',
@@ -9,9 +9,7 @@ import { normalizeLabel } from '../utils/label.utils';
 export class LabelStringPipe implements PipeTransform {
 
   transform(label: Label): string {
-    return normalizeLabel(label)
-      .map(entry => entry.label)
-      .join('')
+    return labelToString(label)
   }
 
 }

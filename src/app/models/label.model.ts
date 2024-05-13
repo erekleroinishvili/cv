@@ -16,7 +16,14 @@ export interface LabelImage {
     alt?: string
 }
 
-export type LabelObject = LabelLink | LabelText | LabelImage
+export interface LabelProgress {
+    type: 'progress'
+    label: string
+    percent: number
+}
+
+export type LabelObject = LabelLink | LabelText | LabelImage | LabelProgress
+export type LabelType = LabelObject['type']
 
 export type Label =
     (string | LabelObject) |
