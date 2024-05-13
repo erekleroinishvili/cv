@@ -154,7 +154,20 @@
                                     "percent": 90
                                 },
                                 " ",
-                                "C++"
+                                "C++",
+                                " (",
+                                {
+                                    "type": "link",
+                                    "label": "<small>sample</small>",
+                                    "url": "https://codeforces.com/contest/1864/submission/220575010"
+                                },
+                                ", ",
+                                {
+                                    "type": "link",
+                                    "label": "<small>live</small>",
+                                    "url": "https://youtu.be/efpxtmWKjT4?t=4722"
+                                },
+                                ")"
                             ]
                         },
                         {
