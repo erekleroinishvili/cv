@@ -25,7 +25,7 @@
             ]
         },
         {
-            "label": "Passion for mathematics and computer science joined with interest in philosophy, economics, politics and leadership."
+            "label": "Junior Scholar at Trinity College, University of Cambridge, with a passion for mathematics and computer science joined with interest in philosophy, economics, politics and leadership."
         },
         {
             "icon": "skills.png",
@@ -254,7 +254,13 @@
                             "url": "https://www.cam.ac.uk/"
                         }
                     ],
-                    "start": 2023
+                    "start": 2023,
+                    "events": [
+                        {
+                            "label": "Junior Scholar",
+                            "start": 2024
+                        }
+                    ]
                 },
                 {
                     "label": [
