@@ -474,6 +474,22 @@
         },
         {
             "icon": "coding.png",
+            "label": "Code Repos",
+            "autoExpand": true,
+            "events": [
+                {
+                    "icon": "github.svg",
+                    "label": [
+                        {
+                            "label": "GitHub Home",
+                            "url": "https://github.com/erekleroinishvili"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "icon": "coding.png",
             "label": "Coding Competitions",
             "countShown": true,
             "autoExpand": false,

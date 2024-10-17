@@ -9,8 +9,6 @@
         "airplane.png",
         "basketball.png",
         "bronze.png",
-        "bullet-expandable.svg",
-        "bullet.svg",
         "chess.png",
         "codeforces-32.png",
         "coding.png",
@@ -34,6 +32,7 @@
         "uk-flag.png",
         "various.png",
         "youtube.png",
+        "github.svg",
 
         null
     ]
