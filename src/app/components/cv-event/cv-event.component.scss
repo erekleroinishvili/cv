@@ -28,3 +28,13 @@
         margin-inline-start: 8px;
     }
 }
+
+.expandable {
+    cursor: pointer;
+    transition: color 300ms, transform 300ms;
+    &:hover {
+        color: blue;
+        transform: translate(0, 3px)
+    }
+}
+

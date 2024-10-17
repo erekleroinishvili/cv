@@ -1,4 +1,4 @@
-<div class="event-header" [class.expanded]="expanded() && event().events?.length" [style.--level]="level()" (click)="toggle()" role="none">
+<div class="event-header" [class.expandable]="event().events?.length" [class.expanded]="expanded() && event().events?.length" [style.--level]="level()" (click)="toggle()" role="none">
 
     <erekle-bullet [bullet]="bullet()" />
 
