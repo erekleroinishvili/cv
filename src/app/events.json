@@ -233,12 +233,11 @@
         {
             "icon": "education.png",
             "label": "Education",
-            "expand": 2,
             "autoExpand": false,
             "events": [
                 {
                     "label": [
-                        "Student at ",
+                        "Student and Junior Scholar at ",
                         {
                             "label": "Computer Science",
                             "url": "https://www.cst.cam.ac.uk/"
@@ -255,10 +254,186 @@
                         }
                     ],
                     "start": 2023,
+                    "autoExpand": false,
                     "events": [
                         {
                             "label": "Junior Scholar",
                             "start": 2024
+                        }
+                    ]
+                },
+                {
+                    "label": "A-Levels & GCSEs",
+                    "icon": "test-result.png",
+                    "autoExpand": false,
+                    "events": [
+                        {
+                            "label": "A Levels (A* A* A* A)",
+                            "autoExpand": true,
+                            "date": 2023,
+                            "events": [
+                                {
+                                    "label": [
+                                        {
+                                            "type": "image",
+                                            "label": "A*",
+                                            "alt": "A-Level Certificate in Mathematics and Further Mathematics",
+                                            "url": "assets/images/diplomas/A-Level-Maths-Further-Maths.jpg"
+                                        },
+                                        " in Mathematics"
+                                    ]
+                                },
+                                {
+                                    "label": [
+                                        {
+                                            "type": "image",
+                                            "label": "A*",
+                                            "alt": "A-Level Certificate in Mathematics and Further Mathematics",
+                                            "url": "assets/images/diplomas/A-Level-Maths-Further-Maths.jpg"
+                                        },
+                                        " in Further Mathematics"
+                                    ]
+                                },
+                                {
+                                    "label": [
+                                        {
+                                            "type": "image",
+                                            "label": "A*",
+                                            "alt": "A-Level Certificate in Physics",
+                                            "url": "assets/images/diplomas/A-Level-Physics.jpg"
+                                        },
+                                        " in Physics"
+                                    ]
+                                },
+                                {
+                                    "label": [
+                                        {
+                                            "type": "image",
+                                            "label": "A",
+                                            "alt": "A-Level Certificate in Economics",
+                                            "url": "assets/images/diplomas/A-Level-Economics.jpg"
+                                        },
+                                        " in Economics"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "label": "GCSE (10 × A*)",
+                            "date": 2021,
+                            "autoExpand": false,
+                            "events": [
+                                {
+                                    "label": [
+                                        {
+                                            "type": "image",
+                                            "label": "9 (A*)",
+                                            "alt": "GCSE Certificate in Biology, Chemistry, Mathematics and Physics",
+                                            "url": "assets/images/diplomas/GCSE-Biology-Chemistyr-Maths-Physics.jpg"
+                                        },
+                                        " in Mathematics"
+                                    ]
+                                },
+                                {
+                                    "label": [
+                                        {
+                                            "type": "image",
+                                            "label": "9 (A*)",
+                                            "alt": "GCSE Certificate in Computer Science, French and Geography",
+                                            "url": "assets/images/diplomas/GCSE-CS-French-Geography.jpg"
+                                        },
+                                        " in Computer Science"
+                                    ]
+                                },
+                                {
+                                    "label": [
+                                        {
+                                            "type": "image",
+                                            "label": "9 (A*)",
+                                            "alt": "GCSE Certificate in Biology, Chemistry, Mathematics and Physics",
+                                            "url": "assets/images/diplomas/GCSE-Biology-Chemistyr-Maths-Physics.jpg"
+                                        },
+                                        " in Physics"
+                                    ]
+                                },
+                                {
+                                    "label": [
+                                        {
+                                            "type": "image",
+                                            "label": "9 (A*)",
+                                            "alt": "GCSE Certificate in Biology, Chemistry, Mathematics and Physics",
+                                            "url": "assets/images/diplomas/GCSE-Biology-Chemistyr-Maths-Physics.jpg"
+                                        },
+                                        " in Biology"
+                                    ]
+                                },
+                                {
+                                    "label": [
+                                        {
+                                            "type": "image",
+                                            "label": "9 (A*)",
+                                            "alt": "GCSE Certificate in Biology, Chemistry, Mathematics and Physics",
+                                            "url": "assets/images/diplomas/GCSE-Biology-Chemistyr-Maths-Physics.jpg"
+                                        },
+                                        " in Chemistry"
+                                    ]
+                                },
+                                {
+                                    "label": [
+                                        {
+                                            "type": "image",
+                                            "label": "9 (A*)",
+                                            "alt": "GCSE Certificate in English Language and Literature",
+                                            "url": "assets/images/diplomas/GCSE-English-Language-Literature.jpg"
+                                        },
+                                        " in English Literature"
+                                    ]
+                                },
+                                {
+                                    "label": [
+                                        {
+                                            "type": "image",
+                                            "label": "9 (A*)",
+                                            "alt": "GCSE Certificate in English Language and Literature",
+                                            "url": "assets/images/diplomas/GCSE-English-Language-Literature.jpg"
+                                        },
+                                        " in English Language"
+                                    ]
+                                },
+                                {
+                                    "label": [
+                                        {
+                                            "type": "image",
+                                            "label": "9 (A*)",
+                                            "alt": "GCSE Certificate in Computer Science, French and Geography",
+                                            "url": "assets/images/diplomas/GCSE-CS-French-Geography.jpg"
+                                        },
+                                        " in English Geography"
+                                    ]
+                                },
+                                {
+                                    "label": [
+                                        {
+                                            "type": "image",
+                                            "label": "9 (A*)",
+                                            "alt": "GCSE Certificate in Computer Science, French and Geography",
+                                            "url": "assets/images/diplomas/GCSE-CS-French-Geography.jpg"
+                                        },
+                                        " in English French"
+                                    ]
+                                },
+                                {
+                                    "label": [
+                                        {
+                                            "type": "image",
+                                            "label": "9 (A*)",
+                                            "alt": "GCSE Certificate in Latin",
+                                            "url": "assets/images/diplomas/GCSE-Latin.jpg"
+                                        },
+                                        " in English Latin"
+                                    ]
+                                }
+                            ]
                         }
                     ]
                 },
@@ -298,183 +473,8 @@
             ]
         },
         {
-            "label": "A-Levels & GCSEs",
-            "icon": "test-result.png",
-            "autoExpand": false,
-            "events": [
-                {
-                    "label": "A Levels (A* A* A* A)",
-                    "autoExpand": true,
-                    "date": 2023,
-                    "events": [
-                        {
-                            "label": [
-                                {
-                                    "type": "image",
-                                    "label": "A*",
-                                    "alt": "A-Level Certificate in Mathematics and Further Mathematics",
-                                    "url": "assets/images/diplomas/A-Level-Maths-Further-Maths.jpg"
-                                },
-                                " in Mathematics"
-                            ]
-                        },
-                        {
-                            "label": [
-                                {
-                                    "type": "image",
-                                    "label": "A*",
-                                    "alt": "A-Level Certificate in Mathematics and Further Mathematics",
-                                    "url": "assets/images/diplomas/A-Level-Maths-Further-Maths.jpg"
-                                },
-                                " in Further Mathematics"
-                            ]
-                        },
-                        {
-                            "label": [
-                                {
-                                    "type": "image",
-                                    "label": "A*",
-                                    "alt": "A-Level Certificate in Physics",
-                                    "url": "assets/images/diplomas/A-Level-Physics.jpg"
-                                },
-                                " in Physics"
-                            ]
-                        },
-                        {
-                            "label": [
-                                {
-                                    "type": "image",
-                                    "label": "A",
-                                    "alt": "A-Level Certificate in Economics",
-                                    "url": "assets/images/diplomas/A-Level-Economics.jpg"
-                                },
-                                " in Economics"
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "label": "GCSE (10 × A*)",
-                    "date": 2021,
-                    "autoExpand": false,
-                    "events": [
-                        {
-                            "label": [
-                                {
-                                    "type": "image",
-                                    "label": "9 (A*)",
-                                    "alt": "GCSE Certificate in Biology, Chemistry, Mathematics and Physics",
-                                    "url": "assets/images/diplomas/GCSE-Biology-Chemistyr-Maths-Physics.jpg"
-                                },
-                                " in Mathematics"
-                            ]
-                        },
-                        {
-                            "label": [
-                                {
-                                    "type": "image",
-                                    "label": "9 (A*)",
-                                    "alt": "GCSE Certificate in Computer Science, French and Geography",
-                                    "url": "assets/images/diplomas/GCSE-CS-French-Geography.jpg"
-                                },
-                                " in Computer Science"
-                            ]
-                        },
-                        {
-                            "label": [
-                                {
-                                    "type": "image",
-                                    "label": "9 (A*)",
-                                    "alt": "GCSE Certificate in Biology, Chemistry, Mathematics and Physics",
-                                    "url": "assets/images/diplomas/GCSE-Biology-Chemistyr-Maths-Physics.jpg"
-                                },
-                                " in Physics"
-                            ]
-                        },
-                        {
-                            "label": [
-                                {
-                                    "type": "image",
-                                    "label": "9 (A*)",
-                                    "alt": "GCSE Certificate in Biology, Chemistry, Mathematics and Physics",
-                                    "url": "assets/images/diplomas/GCSE-Biology-Chemistyr-Maths-Physics.jpg"
-                                },
-                                " in Biology"
-                            ]
-                        },
-                        {
-                            "label": [
-                                {
-                                    "type": "image",
-                                    "label": "9 (A*)",
-                                    "alt": "GCSE Certificate in Biology, Chemistry, Mathematics and Physics",
-                                    "url": "assets/images/diplomas/GCSE-Biology-Chemistyr-Maths-Physics.jpg"
-                                },
-                                " in Chemistry"
-                            ]
-                        },
-                        {
-                            "label": [
-                                {
-                                    "type": "image",
-                                    "label": "9 (A*)",
-                                    "alt": "GCSE Certificate in English Language and Literature",
-                                    "url": "assets/images/diplomas/GCSE-English-Language-Literature.jpg"
-                                },
-                                " in English Literature"
-                            ]
-                        },
-                        {
-                            "label": [
-                                {
-                                    "type": "image",
-                                    "label": "9 (A*)",
-                                    "alt": "GCSE Certificate in English Language and Literature",
-                                    "url": "assets/images/diplomas/GCSE-English-Language-Literature.jpg"
-                                },
-                                " in English Language"
-                            ]
-                        },
-                        {
-                            "label": [
-                                {
-                                    "type": "image",
-                                    "label": "9 (A*)",
-                                    "alt": "GCSE Certificate in Computer Science, French and Geography",
-                                    "url": "assets/images/diplomas/GCSE-CS-French-Geography.jpg"
-                                },
-                                " in English Geography"
-                            ]
-                        },
-                        {
-                            "label": [
-                                {
-                                    "type": "image",
-                                    "label": "9 (A*)",
-                                    "alt": "GCSE Certificate in Computer Science, French and Geography",
-                                    "url": "assets/images/diplomas/GCSE-CS-French-Geography.jpg"
-                                },
-                                " in English French"
-                            ]
-                        },
-                        {
-                            "label": [
-                                {
-                                    "type": "image",
-                                    "label": "9 (A*)",
-                                    "alt": "GCSE Certificate in Latin",
-                                    "url": "assets/images/diplomas/GCSE-Latin.jpg"
-                                },
-                                " in English Latin"
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
             "icon": "coding.png",
-            "label": "Code Repos",
+            "label": "Projects",
             "autoExpand": true,
             "events": [
                 {
@@ -485,6 +485,156 @@
                             "url": "https://github.com/erekleroinishvili"
                         }
                     ]
+                },
+                {
+                    "label": "Stock Exchange Server",
+                    "date": "Aug 2024",
+                    "autoExpand": false,
+                    "events": [
+                        {
+                            "label": "Description",
+                            "autoExpand": false,
+                            "events": [
+                                {
+                                    "label": "Iceberg orders are some of the most interesting addition to modern trading. After reading the relevant Technical Description by the London Stock Exchange, Erekle built a simple simulator that would have full functionality to read and execute Iceberg orders against the order book, generate trade messages and show the current order book in real time."
+                                },
+                                {
+                                    "label": [
+                                        {
+                                            "label": "Technical Description by the London Stock Exchange",
+                                            "type": "link",
+                                            "url": "https://github.com/erekleroinishvili/limited-trade-server/blob/main/icebergs-technical-description.pdf"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "icon": "github.svg",
+                            "label": [
+                                {
+                                    "type": "link",
+                                    "label": "Source code",
+                                    "url": "https://github.com/erekleroinishvili/limited-trade-server"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "label": "Annihilation Game - BIO Problem Visualisation Tool",
+                    "date": "Apr 2024",
+                    "autoExpand": false,
+                    "events": [
+                        {
+                            "label": "Description",
+                            "autoExpand": false,
+                            "events": [
+                                {
+                                    "label": [
+                                        {
+                                            "label": "When volunteering as a Problem Tester at British Informatics Olympiad, Erekle realized that one of the problems, called ",
+                                            "type": "text"
+                                        },
+                                        {
+                                            "label": "The Thing",
+                                            "type": "link",
+                                            "url": "https://www.olympiad.org.uk/papers/2024/final/thing.pdf"
+                                        },
+                                        {
+                                            "label": " would present an unforeseen challenge to the contestants: the game described in the problem would be hard to visualize in limited time. Erekle decided to build a visualization tool - The Annihilation Game. The organizers approved it and the contestants received the visualization tool in addition to the problem statement. The tool featured functionality like board size selector, random board state generator, board editor, move history, and even an analysis tool. The analysis tool was enabled after the contest and was successfully used during problem discussion. It is available online for training and is linked from my video discussing the problem.",
+                                            "type": "text"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "icon": "youtube.png",
+                            "label": [
+                                {
+                                    "label": "Video walk-through ",
+                                    "url": "https://youtu.be/4kL39vphZeg"
+                                },
+                                {
+                                    "label": "with problem description, main insights and the solution in C++",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        {
+                            "icon": "github.svg",
+                            "label": [
+                                {
+                                    "label": "Source code - Solution to BIO Problem \"The Thing\"",
+                                    "url": "https://github.com/erekleroinishvili/competitions/blob/master/BIO/2024/thing/thing.cpp"
+                                }
+                            ]
+                        },
+                        {
+                            "icon": "github.svg",
+                            "label": [
+                                {
+                                    "label": "Source code - Annihilation Game",
+                                    "url": "https://github.com/erekleroinishvili/annihilation-board-game"
+                                }
+                            ]
+                        },
+                        {
+                            "label": [
+                                {
+                                    "label": "Demo - Annihilation Game",
+                                    "url": "https://erekleroinishvili.github.io/annihilation-board-game/"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "label": "Video Tutorials for British Informatics Olympiad",
+                    "autoExpand": false,
+                    "events": [
+                        {
+                            "icon": "youtube.png",
+                            "label": [
+                                {
+                                    "type": "link",
+                                    "label": "BIO 2024, Round 2 - Problem \"The Thing\"",
+                                    "url": "https://youtu.be/4kL39vphZeg"
+                                }
+                            ]
+                        },
+                        {
+                            "icon": "youtube.png",
+                            "label": [
+                                {
+                                    "type": "link",
+                                    "label": "BIO 2024, Round 2 - Problem \"Interference\"",
+                                    "url": "https://youtu.be/Liv3Impa3r8"
+                                }
+                            ]
+                        },
+                        {
+                            "icon": "youtube.png",
+                            "label": [
+                                {
+                                    "type": "link",
+                                    "label": "BIO 2023, Round 2 - Problem \"Fork\"",
+                                    "url": "https://youtu.be/c67dZOLx8B8"
+                                }
+                            ]
+                        },
+                        {
+                            "icon": "youtube.png",
+                            "label": [
+                                {
+                                    "type": "link",
+                                    "label": "BIO 2018, Round 2 - All Problems",
+                                    "url": "https://youtu.be/efpxtmWKjT4"
+                                }
+                            ]
+                        }
+                    ]
                 }
             ]
         },
@@ -493,7 +643,6 @@
             "label": "Coding Competitions",
             "countShown": true,
             "autoExpand": false,
-            "expand": 2,
             "events": [
                 {
                     "icon": "ioi-gray.png",
