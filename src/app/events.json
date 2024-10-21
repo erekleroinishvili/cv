@@ -645,6 +645,49 @@
             "autoExpand": false,
             "events": [
                 {
+                    "label": [
+                        {"label": "ICPC", "url": "https://icpc.global/"},
+                        " International Collegiate Programming Contest"
+                    ],
+                    "events": [
+                        {
+                            "label": [
+                                {
+                                    "label": "1st place",
+                                    "type": "link",
+                                    "url": "https://ukiepc.info/2024/"
+                                },
+                                {
+                                    "label": "",
+                                    "type": "text"
+                                },
+                                ", team \"Unity\", UKIEPC (UK and Ireland) ",
+                                "More than 700 students, in ~250 teams from 29 universities took part in the UKIEPC 2024, at 24 different sites across the UK & Ireland."
+                            ],
+                            "date": "Oct 2024"
+                        },
+                        {
+                            "label": "Team “treenity” of University of Cambridge, ICPC Europe, Prague",
+                            "date": "March 2024"
+                        },
+                        {
+                            "icon": "gold.png",
+                            "label": [
+                                {
+                                    "label": "Gold Medal",
+                                    "url": "https://2023.nwerc.eu/main/scoreboard/"
+                                },
+                                ", 4<sup>th</sup> place, team “treenity”, ",
+                                {
+                                    "label": "Northwestern Europe Regional Contest",
+                                    "url": "https://nwerc.eu/"
+                                }
+                            ],
+                            "date": 2023
+                        }
+                    ]
+                },
+                {
                     "icon": "ioi-gray.png",
                     "label": [
                         {
@@ -738,25 +781,6 @@
                     "countShown": true,
                     "autoExpand": false,
                     "events": [
-                        {
-                            "label": "Team “treenity” of University of Cambridge, ICPC Europe, Prague",
-                            "date": "March 2024"
-                        },
-                        {
-                            "icon": "gold.png",
-                            "label": [
-                                {
-                                    "label": "Gold Medal",
-                                    "url": "https://2023.nwerc.eu/main/scoreboard/"
-                                },
-                                ", 4<sup>th</sup> place, team “treenity”, ",
-                                {
-                                    "label": "Northwestern Europe Regional Contest",
-                                    "url": "https://nwerc.eu/"
-                                }
-                            ],
-                            "date": 2023
-                        },
                         {
                             "label": [
                                 {
