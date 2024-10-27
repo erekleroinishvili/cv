@@ -4,28 +4,7 @@
 
     "events": [
         {
-            "hidden": true,
-            "label": [
-                "TEST: ",
-                {
-                    "type": "image",
-                    "label": "1<sup>st</sup> place",
-                    "url": "assets/images/diplomas/maths-2020-Tournament-of-Towns-1-place.jpg"
-                },
-                ", Juniors, London entry to ",
-                {
-                    "label": "Tournament of Towns International Mathematical Olympiad",
-                    "url": "https://www.turgor.ru/en/"
-                }
-            ],
-            "events": [
-                {
-                    "label": "x"
-                }
-            ]
-        },
-        {
-            "label": "Junior Scholar at Trinity College, University of Cambridge, with a passion for mathematics and computer science joined with interest in philosophy, economics, politics and leadership."
+            "label": "Innovative computer science student at Trinity College, University of Cambridge, with proven success in competitive programming and software development. Gold medalist in the International Olympiad in Informatics (IOI) and a proactive leader in the UK competitive programming community. Adept at solving complex problems, leading collaborative technical projects, and bridging the gap between theoretical knowledge and real-world applications."
         },
         {
             "icon": "skills.png",
@@ -70,6 +49,7 @@
                             ]
                         },
                         {
+                            "hidden": true,
                             "label": [
                                 {
                                     "label": "Georgia",
@@ -473,6 +453,53 @@
             ]
         },
         {
+            "label": "Experience",
+            "events": [
+                {
+                    "label": "Problem Tester and Presenter, British Informatics Olympiad (BIO) | London, UK",
+                    "events": [
+                        {
+                            "label": "Conceived and developed a visualization tool to aid participants in understanding and solving complex algorithmic challenges during the 2024 British Informatics Olympiad, improving problem-solving efficiency for participants."
+                        },
+                        {
+                            "label": "Collaborated with the organizing committee to enhance the competition experience by introducing analysis tools for post-event review and discussion."
+                        },
+                        {
+                            "label": "Published problem solutions and video tutorials, gaining over 1,000 views, establishing a strong online presence for UK coding communities."
+                        }
+                    ]
+                },
+                {
+                    "label": "Organizer and Team Leader, International Advanced Tournament in Informatics (IATI) | Shumen, Bulgaria",
+                    "events": [
+                        {
+                            "label": "Led the organization of UK’s participation in this prestigious international competition, coordinating logistics, team selection, and travel arrangements for a team of 6 students."
+                        },
+                        {
+                            "label": "Secured a medal as a participant while driving the team to success in a high-pressure, competitive environment."
+                        },
+                        {
+                            "label": "Actively liaised with event organizers and international teams, fostering collaboration and knowledge sharing."
+                        }
+                    ]
+                },
+                {
+                    "label": "Content Creator and Educator, YouTube Channel @erekleroinishvili2340 | Remote",
+                    "events": [
+                        {
+                            "label": "Created over 30 video tutorials on competitive programming and algorithmic problem-solving, viewed by 180+ subscribers with 10,000 total views."
+                        },
+                        {
+                            "label": "Built a resource hub for British Informatics Olympiad training, providing previously unavailable tutorials to challenges, filling a critical gap for aspiring competitive coders in the UK."
+                        },
+                        {
+                            "label": "Actively engaged with the coding community through Q&A sessions, contributing to educational outreach and community growth."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "icon": "coding.png",
             "label": "Projects",
             "autoExpand": true,
@@ -487,12 +514,19 @@
                     ]
                 },
                 {
-                    "label": "Stock Exchange Server",
+                    "label": "Stock Exchange Server Simulator",
                     "date": "Aug 2024",
                     "autoExpand": false,
                     "events": [
                         {
-                            "label": "Description",
+                            "label": "Developed a stock exchange server simulator after analyzing the technical description of Iceberg orders by the London Stock Exchange. Simulated Iceberg orders execution and visualization."
+                        },
+                        {
+                            "label": "Released the project as open-source software on GitHub, contributing to the coding community and receiving positive feedback for the accuracy, extendibility and elegance of the solution."
+                        },
+                        {
+
+                            "label": "More info",
                             "autoExpand": false,
                             "events": [
                                 {
@@ -527,7 +561,13 @@
                     "autoExpand": false,
                     "events": [
                         {
-                            "label": "Description",
+                            "label": "Designed a visualization tool to simplify the understanding of a complex problem \"The Thing\" in the British Informatics Olympiad 2024, helping contestants efficiently search for the winning strategy."
+                        },
+                        {
+                            "label": "Tool integrated features such as random board generator, board editor, move history, and an analysis tool for post-contest discussions."
+                        },
+                        {
+                            "label": "More info",
                             "autoExpand": false,
                             "events": [
                                 {
@@ -633,6 +673,24 @@
                                     "url": "https://youtu.be/efpxtmWKjT4"
                                 }
                             ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "label": "Volunteer Experience",
+            "autoExpand": false,
+            "events": [
+                {
+                    "label": "Volunteer Problem Setter & Reviewer, British Informatics Olympiad (BIO)",
+                    "date": 2024,
+                    "events": [
+                        {
+                            "label": "Assisted in reviewing and testing problems for the national competition, ensuring fairness and accessibility for over 100 competitors across the UK."
+                        },
+                        {
+                            "label": "Provided insights on enhancing the problem-solving experience with custom tools and guides."
                         }
                     ]
                 }
@@ -1473,6 +1531,29 @@
                             "label": "Violin, Piano, Guitar"
                         }
                     ]
+                }
+            ]
+        },
+
+
+        {
+            "hidden": true,
+            "label": [
+                "TEST: ",
+                {
+                    "type": "image",
+                    "label": "1<sup>st</sup> place",
+                    "url": "assets/images/diplomas/maths-2020-Tournament-of-Towns-1-place.jpg"
+                },
+                ", Juniors, London entry to ",
+                {
+                    "label": "Tournament of Towns International Mathematical Olympiad",
+                    "url": "https://www.turgor.ru/en/"
+                }
+            ],
+            "events": [
+                {
+                    "label": "x"
                 }
             ]
         }
