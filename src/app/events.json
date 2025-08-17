@@ -514,6 +514,39 @@
                     ]
                 },
                 {
+                    "label": "Trader Lingo",
+                    "date": "Apr 2024",
+                    "autoExpand": false,
+                    "events": [
+                        {
+                            "label": "Developed a web application to help future traders master basic trader jargon."
+                        },
+                        {
+                            "label": "Uses \"interleaved practice with variability\"—a technique that helps effectively internalize key vocabulary"
+                        },
+                        {
+                            "icon": "youtube.png",
+                            "label": [
+                                {
+                                    "type": "link",
+                                    "label": "Demo",
+                                    "url": "https://erekleroinishvili.github.io/trader-lingo/"
+                                }
+                            ]
+                        },
+                        {
+                            "icon": "github.svg",
+                            "label": [
+                                {
+                                    "type": "link",
+                                    "label": "Source code",
+                                    "url": "https://github.com/erekleroinishvili/trader-lingo"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
                     "label": "Stock Exchange Server Simulator",
                     "date": "Aug 2024",
                     "autoExpand": false,
