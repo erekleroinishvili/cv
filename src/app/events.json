@@ -1,7 +1,6 @@
 {
     "$schema-local": "https://raw.githubusercontent.com/erekleroinishvili/cv/main/src/app/json-schemas/events.schema.json",
     "$schema": "./json-schemas/events.schema.json",
-
     "events": [
         {
             "label": "Innovative computer science student at Trinity College, University of Cambridge, with proven success in competitive programming and software development. Gold medalist in the International Olympiad in Informatics (IOI) and a proactive leader in the UK competitive programming community. Adept at solving complex problems, leading collaborative technical projects, and bridging the gap between theoretical knowledge and real-world applications."
@@ -208,7 +207,6 @@
                     ]
                 }
             ]
-
         },
         {
             "icon": "education.png",
@@ -500,6 +498,48 @@
                             "label": "Actively engaged with the coding community through Q&A sessions, contributing to educational outreach and community growth."
                         }
                     ]
+                },
+                {
+                    "label": "Problemsetter and member of scientific committee, Western-European Olympiad in Informatics (WEOI)",
+                    "events": [
+                        {
+                            "label": [
+                                "UK representative at WEOI scientific committee | ",
+                                {
+                                    "label": "WEOI 2026",
+                                    "url": "https://weoi.org/weoi-2026/"
+                                },
+                                " in Luxembourg"
+                            ],
+                            "date": "June 2026"
+                        },
+                        {
+                            "label": [
+                                "Problemsetter and scientific contributor | ",
+                                {
+                                    "label": "WEOI 2024",
+                                    "url": "https://weoi.org/weoi-2024/"
+                                },
+                                " in London, UK"
+                            ],
+                            "date": "June 2024"
+                        },
+                        {
+                            "label": [
+                                {
+                                    "label": "Second place",
+                                    "url": "https://weoi.org/results/2023/"
+                                },
+                                " | ",
+                                {
+                                    "label": "WEOI 2023",
+                                    "url": "https://weoi.org/weoi-2023/"
+                                },
+                                " in Eindhoven, Netherlands"
+                            ],
+                            "date": "June 2023"
+                        }
+                    ]
                 }
             ]
         },
@@ -562,7 +602,6 @@
                             "label": "Released the project as open-source software on GitHub, contributing to the coding community and receiving positive feedback for the accuracy, extendibility and elegance of the solution."
                         },
                         {
-
                             "label": "More info",
                             "autoExpand": false,
                             "events": [
@@ -668,9 +707,89 @@
                     ]
                 },
                 {
-                    "label": "Video Tutorials for British Informatics Olympiad",
+                    "label": [
+                        {
+                            "label": "Video Tutorials",
+                            "url": "https://www.youtube.com/playlist?list=PLkOrq5fujXUaBWyXwH3EdK7Kyc4AxCis-"
+                        },
+                        " for ",
+                        {
+                            "label": "British Informatics Olympiad",
+                            "url": "https://www.olympiad.org.uk/"
+                        }
+                    ],
                     "autoExpand": false,
                     "events": [
+                        {
+                            "icon": "youtube.png",
+                            "label": [
+                                {
+                                    "type": "link",
+                                    "label": "BIO 2026, Round 2 - Problem \"Pie in the Sky\"",
+                                    "url": "https://youtu.be/a11M834RKoI"
+                                }
+                            ]
+                        },
+                        {
+                            "icon": "youtube.png",
+                            "label": [
+                                {
+                                    "type": "link",
+                                    "label": "BIO 2026, Round 2 - Problem \"The Ratsnare\"",
+                                    "url": "https://youtu.be/LaFfZxRHcrM"
+                                }
+                            ]
+                        },
+                        {
+                            "icon": "youtube.png",
+                            "label": [
+                                {
+                                    "type": "link",
+                                    "label": "BIO 2026, Round 2 - Problem \"Keep Watching the Skies\"",
+                                    "url": "https://youtu.be/WMLzOsPLro8"
+                                }
+                            ]
+                        },
+                        {
+                            "icon": "youtube.png",
+                            "label": [
+                                {
+                                    "type": "link",
+                                    "label": "BIO 2026, Round 2 - Problem \"Appliance Inventions\"",
+                                    "url": "https://youtu.be/qmJ6dtnPnT0"
+                                }
+                            ]
+                        },
+                        {
+                            "icon": "youtube.png",
+                            "label": [
+                                {
+                                    "type": "link",
+                                    "label": "BIO 2025, Round 2 - Problem \"Frosty Relations\"",
+                                    "url": "https://youtu.be/wix4FPqhV60"
+                                }
+                            ]
+                        },
+                        {
+                            "icon": "youtube.png",
+                            "label": [
+                                {
+                                    "type": "link",
+                                    "label": "BIO 2025, Round 2 - Problem \"Cold War - Zero\"",
+                                    "url": "https://youtu.be/R7GD1gM9rTw"
+                                }
+                            ]
+                        },
+                        {
+                            "icon": "youtube.png",
+                            "label": [
+                                {
+                                    "type": "link",
+                                    "label": "BIO 2025, Round 2 - Problem \"Plundering Pirates\"",
+                                    "url": "https://youtu.be/9FpjcancxMY"
+                                }
+                            ]
+                        },
                         {
                             "icon": "youtube.png",
                             "label": [
@@ -741,10 +860,28 @@
             "events": [
                 {
                     "label": [
-                        {"label": "ICPC", "url": "https://icpc.global/"},
+                        {
+                            "label": "ICPC",
+                            "url": "https://icpc.global/"
+                        },
                         " International Collegiate Programming Contest"
                     ],
                     "events": [
+                        {
+                            "label": [
+                                {
+                                    "label": "1st place",
+                                    "type": "link",
+                                    "url": "https://ukiepc.info/2025/"
+                                },
+                                {
+                                    "label": "",
+                                    "type": "text"
+                                },
+                                " for the second year running, team \"Unity\", UKIEPC (UK and Ireland) "
+                            ],
+                            "date": "Oct 2025"
+                        },
                         {
                             "label": [
                                 {
@@ -1063,6 +1200,26 @@
             "autoExpand": false,
             "events": [
                 {
+                    "icon": "1.png",
+                    "label": [
+                        "First place in theoretical rounds of ",
+                        {
+                            "label": "Delta",
+                            "url": "https://delta-competition.com/"
+                        },
+                        " Applied Maths Competition, representing Cambridge University"
+                    ],
+                    "date": 2026,
+                    "events": [
+                        {
+                            "label": "Three three-hour IMO-style team rounds covering Graph Theory, Queue Theory and Linear Algebra"
+                        },
+                        {
+                            "label": "Top scorers overall, with top scores in Graph Theory and Queue Theory"
+                        }
+                    ]
+                },
+                {
                     "label": [
                         "Scored in ",
                         {
@@ -1112,38 +1269,7 @@
                 {
                     "label": "School Team member / captain, Hans Woyda Maths Competition",
                     "start": 2017,
-                    "end": 2023,
-                    "autoExpand": false,
-                    "events": [
-                        {
-                            "label": "School Team member / captain, Hans Woyda Maths Competition",
-                            "date": 2023
-                        },
-                        {
-                            "label": "School Team member / captain, Hans Woyda Maths Competition",
-                            "date": 2022
-                        },
-                        {
-                            "label": "School Team member / captain, Hans Woyda Maths Competition",
-                            "date": 2021
-                        },
-                        {
-                            "label": "School Team member / captain, Hans Woyda Maths Competition",
-                            "date": 2020
-                        },
-                        {
-                            "label": "School Team member / captain, Hans Woyda Maths Competition",
-                            "date": 2019
-                        },
-                        {
-                            "label": "School Team member / captain, Hans Woyda Maths Competition",
-                            "date": 2018
-                        },
-                        {
-                            "label": "School Team member / captain, Hans Woyda Maths Competition",
-                            "date": 2017
-                        }
-                    ]
+                    "end": 2023
                 },
                 {
                     "label": [
@@ -1431,12 +1557,11 @@
             "events": [
                 {
                     "label": [
-                        "Manage a small portforlio on an online trading platform ",
+                        "Manage a small portfolio on an online trading platform ",
                         {
                             "label": "Trading 212",
                             "url": "https://www.trading212.com/"
                         }
-
                     ]
                 }
             ]
@@ -1571,8 +1696,6 @@
                 }
             ]
         },
-
-
         {
             "hidden": true,
             "label": [
