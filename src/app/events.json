@@ -235,8 +235,23 @@
                     "autoExpand": false,
                     "events": [
                         {
+                            "label": "Part II Dissertation. AlphaForecast: News-Based Machine Learning Analysis of Stock Price Movements Computer Science Tripos, University of Cambridge",
+                            "start": 2026,
+                            "autoExpand": false,
+                            "events": [
+                                {
+                                    "label": "Built an end-to-end research pipeline combining high-frequency LOBSTER limit order book data with financial news data to study short-horizon stock movement prediction. Trained price-based models on market microstructure features and article-based models using FinBERT sentiment scores and MiniLM text embeddings, evaluating performance across six major tech stocks with trading metrics including Sharpe ratio and buy-and-hold benchmarks."
+                                }
+                            ]
+                        },
+                        {
                             "label": "Junior Scholar",
-                            "start": 2024
+                            "start": 2024,
+                            "end": 2025
+                        },
+                        {
+                            "label": "Senior Scholar",
+                            "start": 2025
                         }
                     ]
                 },
